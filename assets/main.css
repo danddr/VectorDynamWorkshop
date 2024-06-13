@@ -76,6 +76,11 @@ th,td{
     /*border: 1px solid black;*/
 }
 
+
+.centered-title {
+    text-align: center;
+}
+
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif;}
 .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
