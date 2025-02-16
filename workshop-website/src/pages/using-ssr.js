@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 
 const UsingSSR = ({ serverData }) => {
   return (
-    <Layout>
+    <Layout workshop="main">
       <h1>
         This page is <b>rendered server-side</b>
       </h1>

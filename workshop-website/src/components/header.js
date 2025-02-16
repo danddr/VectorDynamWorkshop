@@ -4,13 +4,50 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import * as styles from "../components/index.module.css"
 
-const samplePageLinks = [
+const mainPageLinks = [
   { text: "Home", url: "/" },
   { text: "Data & Models", url: "/resources" },
   { text: "Workshops", url: "/workshops" }
 ]
 
-const Header = ({ siteTitle }) => (
+const mainPageLinks_ws2024 = [
+  { text: "Home", url: "/Bologna2024" },
+  { text: "Registration", url: "/Bologna2024/registration" },
+  { text: "Program", url: "/Bologna2024/program" },
+  { text: "Directions", url: "/Bologna2024/directions" },
+  { text: "Presentations", url: "/Bologna2024/presentations" },
+  { text: "Workshops", url: "/workshops" }
+]
+
+const mainPageLinks_ws2025 = [
+  { text: "Home", url: "/Nicosia2025" },
+  { text: "Registration", url: "/Nicosia2025/registration" },
+  { text: "Program", url: "/Nicosia2025/program" },
+  { text: "Directions", url: "/Nicosia2025/directions" },
+  { text: "Exercise", url: "/Nicosia2025/exercise" },
+  { text: "Workshops", url: "/workshops" }
+]
+
+const Header = ({ workshop, siteTitle }) => {
+  const ws_date = {
+    "main": (<></>),
+    "Bologna2024": (
+        <div class="ws-date">
+          September 19-20, 2024 - Bologna, Italy
+        </div>
+      ),
+    "Nicosia2025": (
+        <div class="ws-date">
+          September 17-19, 2025 - Nicosia, Cyprus
+        </div>
+      )
+  }[workshop];
+  const pageLinks = {
+    "main": mainPageLinks,
+    "Bologna2024": mainPageLinks_ws2024,
+    "Nicosia2025": mainPageLinks_ws2025
+  }[workshop];
+  return (
   <>
     <div className={styles.textCenter}>
     <StaticImage
@@ -25,16 +62,18 @@ const Header = ({ siteTitle }) => (
       <h1>
         Climate-Sensitive Vector Dynamics <br/> <b>Modelling Workshop</b>
       </h1>
+      {ws_date}
       <p className={styles.intro}>
-        {samplePageLinks.map((link, i) => (
+        {pageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
+            {i !== pageLinks.length - 1 && <> · </>}
           </React.Fragment>
         ))}
       </p>
     </div>
   </>
 )
+}
 
 export default Header

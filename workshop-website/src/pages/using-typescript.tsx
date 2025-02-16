@@ -15,7 +15,7 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({
   data,
   location,
 }) => (
-  <Layout>
+  <Layout workshop="main">
     <h1>
       Gatsby supports <b>TypeScript by default</b>
     </h1>

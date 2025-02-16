@@ -9,20 +9,20 @@ import * as styles from "../components/index.module.css"
 const links = [
   {
     text: "Nicosia 2025",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
+    url: "/Nicosia2025",
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
   },
   {
     text: "Bologna 2024",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
+    url: "/Bologna2024",
     description:
       "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
   }
 ]
 
 const SecondPage = () => (
-  <Layout>
+  <Layout workshop="main">
     <h1><b>Frontiers in Vector Modelling</b></h1>
     <h2>Annual Workshop on Modelling Innovations for Integrated Vector and Disease Management</h2>
     <p>
@@ -42,7 +42,7 @@ const SecondPage = () => (
         </li>
       ))}
     </ul>
-  </Layout>
+    </Layout>
 )
 
 export const Head = () => <Seo title="Page two" />

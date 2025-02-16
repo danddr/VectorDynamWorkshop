@@ -177,7 +177,7 @@ li > p {
   margin-bottom: calc(var(--space-4) / 2);
 }
 p {
-  max-width: 680px;
+/*  max-width: 680px; */
 }
 code {
   font-size: 0.875rem;
@@ -221,4 +221,22 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: none;
+}
+
+.ws-date {
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-logo a {
+  margin: 5px;
 }
