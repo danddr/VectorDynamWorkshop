@@ -1,15 +1,18 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import * as styles from "../../components/table.css"
+
 import Layout from "../../components/layout"
 import Footer from "../../components/footer"
 import Seo from "../../components/seo"
+import XLink from "../../components/xlink"
 
 const ProgramPage = () => (
   <Layout workshop="Bologna2024">
     <h2>Thursday 19th September</h2>
 
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             8:30
@@ -22,7 +25,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="authorities">
+<table className={styles.table} id="authorities">
     <tr>
         <td class="date" rowspan="3">
             9:00 
@@ -37,7 +40,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="groupActivity1">
+<table className={styles.table} id="groupActivity1">
     <tr>
         <td class="date" rowspan="3">
             9:15 - 10:00
@@ -52,7 +55,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             10:00 -10:20
@@ -68,7 +71,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="Oliv">
+<table className={styles.table} id="Oliv">
     <tr>
         <td class="date" rowspan="3">
         </td>
@@ -86,7 +89,7 @@ const ProgramPage = () => (
 </table>
 
 
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             10:20 -11:00
@@ -102,7 +105,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="PaulHuxley">
+<table className={styles.table} id="PaulHuxley">
     <tr>
         <td class="date" rowspan="3">
             10:20
@@ -123,7 +126,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="EmmaKern">
+<table className={styles.table} id="EmmaKern">
     <tr>
         <td class="date" rowspan="3">
             10:40
@@ -144,7 +147,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             11:00-11:30
@@ -159,7 +162,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             11:30 - 12:30          
@@ -176,7 +179,7 @@ const ProgramPage = () => (
 </table>
 
 
-<table id="Giovanni Marini">
+<table className={styles.table} id="Giovanni Marini">
     <tr>
         <td class="date" rowspan="3">
             11:30
@@ -197,8 +200,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-
-<table id="William Wint">
+<table className={styles.table} id="William Wint">
     <tr>
         <td class="date" rowspan="3">
             11:50
@@ -219,7 +221,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="RobertMaccallum">
+<table className={styles.table} id="RobertMaccallum">
     <tr>
         <td class="date" rowspan="3">
             12:10
@@ -244,9 +246,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-
-
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             12:30 - 13:30
@@ -261,8 +261,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             13:30 - 15:10
@@ -279,7 +278,7 @@ const ProgramPage = () => (
 </table>
 
 
-<table id="Dom">
+<table className={styles.table} id="Dom">
     <tr>
         <td class="date" rowspan="3">
             13:30
@@ -300,9 +299,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-
-
-<table id="Kamil">
+<table className={styles.table} id="Kamil">
     <tr>
         <td class="date" rowspan="3">
             13:50
@@ -325,7 +322,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="Pachka">
+<table className={styles.table} id="Pachka">
     <tr>
         <td class="date" rowspan="3">
             14:10
@@ -346,7 +343,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="Cyril">
+<table className={styles.table} id="Cyril">
     <tr>
         <td class="date" rowspan="3">
             14:30
@@ -367,8 +364,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-
-<table id="DanieleDaRe">
+<table className={styles.table} id="DanieleDaRe">
     <tr>
         <td class="date" rowspan="3">
             14:50
@@ -389,7 +385,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             15:10 - 15:30
@@ -404,7 +400,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             15:30 - 16:50
@@ -421,7 +417,7 @@ const ProgramPage = () => (
 </table>
 
 
-<table id="Adolfo">
+<table className={styles.table} id="Adolfo">
     <tr>
         <td class="date" rowspan="3">
             15:30
@@ -442,7 +438,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="Alessandro">
+<table className={styles.table} id="Alessandro">
     <tr>
         <td class="date" rowspan="3">
             15:50
@@ -463,7 +459,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table id="Margo">
+<table className={styles.table} id="Margo">
     <tr>
         <td class="date" rowspan="3">
             16:10
@@ -486,8 +482,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-
-<table id="Agnese">
+<table className={styles.table} id="Agnese">
     <tr>
         <td class="date" rowspan="3">
             16:30
@@ -512,29 +507,32 @@ const ProgramPage = () => (
     </tr> 
 </table>
 
-<table>
+<table className={styles.table}>
     <tr>
-        <td class="date" rowspan="2">
+        <td class="date" rowspan="3">
             19.30
         </td>
         <td class="title-special">
-        Social dinner downtown 
-    </td>
-    <tr>
-         <td class="abstract">
-            We meet at the restaurant  <a href="https://www.tripadvisor.it/Restaurant_Review-g187801-d9585731-Reviews-Va_Mo_La-Bologna_Province_of_Bologna_Emilia_Romagna.html">"Va Mo La" (Via delle Moline 3/A, Bologna)</a>.
-
-<iframe class= "directions" src="https://www.openstreetmap.org/export/embed.html?bbox=11.345518827438356%2C44.4973050438148%2C11.348871588706972%2C44.49897713497265&amp;layer=mapnik&amp;marker=44.4981410%2C11.3475308" style={{border:"1px solid black"}}></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=44.51004&amp;mlon=11.35899#map=19/44.51004/11.35899">View Larger Map</a></small>
-        </td> 
+            Social dinner downtown 
+        </td>
     </tr>
-  
+    <tr>
+        <td class="speaker">
+            Agnese Zardini (Bruno Kessler Foundation, Italy)
+        </td>
+    </tr>
+    <tr>
+        <td class="abstract">
+            We meet at the restaurant  <XLink href="https://www.tripadvisor.it/Restaurant_Review-g187801-d9585731-Reviews-Va_Mo_La-Bologna_Province_of_Bologna_Emilia_Romagna.html">"Va Mo La" (Via delle Moline 3/A, Bologna)</XLink>.<br/>
+
+            <iframe class= "directions" src="https://www.openstreetmap.org/export/embed.html?bbox=11.345518827438356%2C44.4973050438148%2C11.348871588706972%2C44.49897713497265&amp;layer=mapnik&amp;marker=44.4981410%2C11.3475308" style={{border:"1px solid black"}}></iframe><br/><small><XLink href="https://www.openstreetmap.org/?mlat=44.51004&amp;mlon=11.35899#map=19/44.51004/11.35899">View Larger Map</XLink></small>
+        </td> 
     </tr>
 </table>
 
 <h2>Friday 20th September</h2>
 
-
-<table id="groupActivity2">
+<table className={styles.table} id="groupActivity2">
     <tr>
         <td class="date" rowspan="3">
             9:00 - 10:30 
@@ -551,7 +549,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-<table>
+<table className={styles.table}>
     <tr>
         <td class="date" rowspan="2">
             10:30 - 11:00
@@ -566,7 +564,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
- <table id="groupActivity3">
+ <table className={styles.table} id="groupActivity3">
     <tr>
         <td class="date" rowspan="3">
             11:00 - 12:45 
@@ -582,7 +580,7 @@ const ProgramPage = () => (
     </tr>
 </table>
 
-    <table id="authorities">
+<table className={styles.table} id="authorities">
     <tr>
         <td class="date" rowspan="3">
             12:45 - 13:00 
