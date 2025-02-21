@@ -59,29 +59,47 @@ const img_EMME_CARE = (<StaticImage
   />
 );
 
+const img_CIRAD = (<StaticImage
+    src="../images/cirad-agricultural-research-for-development-vector-logo.webp"
+    loading="eager"
+    width={175}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
+
 const orgLinks_ws2025 = [];
 
 const funderLinks_ws2025 = [
-    {
-        "url": "https://www.centro3a.unitn.it/",
-        "image": img_c3a
-    },
-    {
-        "url": "https://www.regione.emilia-romagna.it/",
-        "image": img_ER
-    },
-    {
-        "url": "https://wellcome.org/",
-        "image": img_Wellcome
-    },
-    {
-        "url": "https://www.cyi.ac.cy/",
-        "image": img_CyI
-    },
-    {
-        "url": "https://emme-care.cyi.ac.cy/",
-        "image": img_EMME_CARE
-    }
+    [
+        {
+            "url": "https://wellcome.org/",
+            "image": img_Wellcome
+        },
+        {
+            "url": "https://www.cyi.ac.cy/",
+            "image": img_CyI
+        },
+        {
+            "url": "https://emme-care.cyi.ac.cy/",
+            "image": img_EMME_CARE
+        }
+    ],[
+        {
+            "url": "https://www.centro3a.unitn.it/",
+            "image": img_c3a
+        },
+        {
+            "url": "https://www.regione.emilia-romagna.it/",
+            "image": img_ER
+        },
+        {
+            "url": "https://www.cirad.fr/en",
+            "image": img_CIRAD
+        }
+    ]
 ];
 
 const orgLinks_ws2024 = [
@@ -100,18 +118,20 @@ const orgLinks_ws2024 = [
 ];
 
 const funderLinks_ws2024 = [
-    {
-        "url": "https://www.centro3a.unitn.it/",
-        "image": img_c3a
-    },
-    {
-        "url": "https://wellcome.org/",
-        "image": img_Wellcome
-    }
+    [
+        {
+            "url": "https://www.centro3a.unitn.it/",
+            "image": img_c3a
+        },
+        {
+            "url": "https://wellcome.org/",
+            "image": img_Wellcome
+        }
+    ]
 ];
 
 const Footer = ({ workshop }) => {
-    if (workshop == "main") return (<></>);
+    if (workshop === "main") return (<></>);
 
     const orgLinks = {
         "main": [],
@@ -127,25 +147,34 @@ const Footer = ({ workshop }) => {
 
     const organised = (<>
         <h3>Organised by</h3>
-          <p className={"footer-logo"}>
-            {orgLinks.map((link, i) => (
-                <XLink href={link.url}>
-                    {link.image}
-                </XLink>
-            ))}
-          </p>
+          <div className={"footer-logo"}>
+            <div className={"footer-logo-group"}>
+              {orgLinks.map((link, i) => (
+                <React.Fragment key={i}>
+                    <XLink href={link.url}>
+                        {link.image}
+                    </XLink>
+                </React.Fragment>
+              ))}
+            </div></div>
         </>);
 
     const funded = (<>
         <h3>Funded by</h3>
-          <p className={"footer-logo"}>
-            {funderLinks.map((link, i) => (
-                <XLink href={link.url}>
-                    {link.image}
-                </XLink>
-            ))}
-          </p>
-        </>);
+            <div className={"footer-logo"}>
+              {funderLinks.map((group, j) => (
+                <React.Fragment key={j}>
+                    <div className={"footer-logo-group"}>
+                        {group.map((link, i) => (
+                             <XLink key={i} href={link.url}>
+                              {link.image}
+                            </XLink>
+                          ))}
+                    </div>
+                </React.Fragment>
+              ))}
+            </div>
+          </>);
 
     const sections = {
         "main": [],

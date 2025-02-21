@@ -1,10 +1,8 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import * as styles from "../../components/table.css"
 
 import Layout from "../../components/layout"
-import Footer from "../../components/footer"
 import Seo from "../../components/seo"
 
 const ProgramPage = () => (
@@ -12,83 +10,91 @@ const ProgramPage = () => (
     <h2>Wednesday 17th September</h2>
 
 <table className={styles.table}>
+    <tbody>
     <tr>
-        <td class="date" rowspan="3">
+        <td className={"date"} rowSpan="3">
         Parallel<br/> Training<br/> Session
         </td>
-        <td class="title-special">
+        <td className={"title-special"}>
         Data analysis and early warning support systems
         </td>
     </tr>
     <tr>
-        <td class="speaker">
+        <td className={"speaker"}>
         </td>
     </tr>
     <tr>
-        <td class="title">
+        <td className={"title"}>
         </td> 
     </tr>
+    </tbody>
 </table>
 
 <table className={styles.table}>
+    <tbody>
     <tr>
-        <td class="date" rowspan="3">
+        <td className={"date"} rowSpan="3">
         Parallel<br/> Training<br/> Session
         </td>
-        <td class="title-special">
+        <td className={"title-special"}>
         Advanced methods for climate impacts modelling
         </td>
     </tr>
     <tr>
-        <td class="speaker">
+        <td className={"speaker"}>
         </td>
     </tr>
     <tr>
-        <td class="title">
+        <td className={"title"}>
         </td> 
     </tr>
+    </tbody>
 </table>
 
 <h2>Thursday 18th September</h2>
 
 <table className={styles.table}>
+    <tbody>
     <tr>
-        <td class="date" rowspan="3">
+        <td className={"date"} rowSpan="3">
         Vector<br/> Modelling<br/> Workshop
         </td>
-        <td class="title-special">
+        <td className={"title-special"}>
         Modelling <i>Aedes aegypti</i> activity in the EMME region
         </td>
     </tr>
     <tr>
-        <td class="speaker">
+        <td className={"speaker"}>
         </td>
     </tr>
     <tr>
-        <td class="title">
+        <td className={"title"}>
         </td> 
     </tr>
+    </tbody>
 </table>
 
 <h2>Friday 19th September</h2>
 
 <table className={styles.table}>
+    <tbody>
     <tr>
-        <td class="date" rowspan="3">
+        <td className={"date"} rowSpan="3">
         Vector<br/> Modelling<br/> Workshop
         </td>
-        <td class="title-special">
+        <td className={"title-special"}>
         Discussions
         </td>
     </tr>
     <tr>
-        <td class="speaker">
+        <td className={"speaker"}>
         </td>
     </tr>
     <tr>
-        <td class="title">
+        <td className={"title"}>
         </td> 
     </tr>
+    </tbody>
 </table>
 </Layout>
 )

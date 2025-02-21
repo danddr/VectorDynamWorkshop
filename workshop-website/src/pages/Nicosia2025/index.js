@@ -28,7 +28,12 @@ const IndexPage = () => (
     <ul>
     <li>Daniele Da Re - University of Trento (Italy)</li>
     <li>Kamil Erguler - The Cyprus Institute (Cyprus)</li>
+    <li>Yiannis Proestos - The Cyprus Institute (Cyprus)</li>
+    <li>Georgios Zittis - The Cyprus Institute (Cyprus)</li>
     <li>Cyril Caminade - The Abdus Salam International Centre for Theoretical Physics (Italy)</li>
+    <li>Pachka Hammami - UMR ASTRE - CIRAD (France)</li>
+    <li>Dominic Brass - UK Centre for Ecology & Hydrology (UK)</li>
+    <li>Mina Petrić - Avia-GIS (Belgium)</li>
     </ul>
     <Footer workshop="Nicosia2025"/>
   </Layout>

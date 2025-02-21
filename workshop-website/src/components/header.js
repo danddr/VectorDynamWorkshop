@@ -32,12 +32,12 @@ const Header = ({ workshop, siteTitle }) => {
   const ws_date = {
     "main": (<></>),
     "Bologna2024": (
-        <div class="ws-date">
+        <div className={"ws-date"}>
           September 19-20, 2024 - Bologna, Italy
         </div>
       ),
     "Nicosia2025": (
-        <div class="ws-date">
+        <div className={"ws-date"}>
           September 17-19, 2025 - Nicosia, Cyprus
         </div>
       )

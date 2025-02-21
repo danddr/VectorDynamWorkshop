@@ -231,10 +231,15 @@ pre tt:after {
 
 .footer-logo {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.footer-logo-group {
+  display: flex;
+  align-items: center;
 }
 
 .footer-logo a {

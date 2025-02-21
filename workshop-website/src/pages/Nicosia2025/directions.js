@@ -12,7 +12,7 @@ const DirectionsPage = () => (
     <p>
         The workshop will be held at <XLink href="https://www.cyi.ac.cy/">The Cyprus Institute</XLink>, Athalassa Campus, located at 20 Konstantinou Kavafi Street, 2121 Aglantzia, Nicosia, Cyprus.
     </p>
-    <iframe class= "directions" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.746593341688!2d33.37716471192545!3d35.14143017265279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de19c615df21e5%3A0xb9673af622a4c46a!2sThe%20Cyprus%20Institute!5e0!3m2!1sen!2s!4v1737710894943!5m2!1sen!2s" width="600" height="450" style={{border:"1px solid black"}} allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe title="direct-CyI" className={"directions"} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.746593341688!2d33.37716471192545!3d35.14143017265279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de19c615df21e5%3A0xb9673af622a4c46a!2sThe%20Cyprus%20Institute!5e0!3m2!1sen!2s!4v1737710894943!5m2!1sen!2s" width="600" height="450" style={{border:"1px solid black"}} allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <h3>Accommodation</h3>
     <p>

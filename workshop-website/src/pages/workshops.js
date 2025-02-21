@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -11,13 +10,12 @@ const links = [
     text: "Nicosia 2025",
     url: "/Nicosia2025",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  },
+      <>The second workshop, to be held in Nicosia, Cyprus, will focus on <i>Aedes aegypti</i> and include a pre-workshop training session.</>  },
   {
     text: "Bologna 2024",
     url: "/Bologna2024",
     description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
+      <>The inaugural workshop, which laid the foundation for the community, was held in Bologna, Italy, with a focus on <i>Aedes aegypti</i>.</>
   }
 ]
 
