@@ -85,15 +85,6 @@ const funderLinks_ws2025 = [
         {
             "url": "https://emme-care.cyi.ac.cy/",
             "image": img_EMME_CARE
-        }
-    ],[
-        {
-            "url": "https://www.centro3a.unitn.it/",
-            "image": img_c3a
-        },
-        {
-            "url": "https://www.regione.emilia-romagna.it/",
-            "image": img_ER
         },
         {
             "url": "https://www.cirad.fr/en",
