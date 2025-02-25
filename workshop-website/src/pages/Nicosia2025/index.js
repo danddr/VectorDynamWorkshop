@@ -13,7 +13,7 @@ const IndexPage = () => (
 
     <h2>Organisers</h2>
     <p  style={{textAlign:"justify"}}>
-       Organised by the Cyprus Institute, the University of Trento, and CIRAD, this workshop aims to convene European modellers and stakeholders for an insightful dialogue on the technical details and future advancements in predictive models and modelling techniques for Climate-Sensitive Vectors, exemplified by the <i>Aedes albopictus</i> mosquito species.
+       Organised by the Cyprus Institute (Cyprus), the Edmund Mach Foundation (Italy), and CIRAD (France), this workshop aims to convene European modellers and public health stakeholders for an insightful dialogue on the technical details and future advancements in predictive models and modelling techniques for Climate-Sensitive Vectors, exemplified by the <i>Aedes albopictus</i> mosquito species.
     </p>
     <h4>Local Organisation Team:</h4>
     <ul>
@@ -26,7 +26,7 @@ const IndexPage = () => (
     </ul>
     <h4>Scientific Committee:</h4>
     <ul>
-    <li>Daniele Da Re - University of Trento (Italy)</li>
+    <li>Daniele Da Re - Edmund Mach Foundation (Italy)</li>
     <li>Kamil Erguler - The Cyprus Institute (Cyprus)</li>
     <li>Yiannis Proestos - The Cyprus Institute (Cyprus)</li>
     <li>Georgios Zittis - The Cyprus Institute (Cyprus)</li>

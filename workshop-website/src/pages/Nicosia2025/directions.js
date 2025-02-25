@@ -57,20 +57,20 @@ const DirectionsPage = () => (
     </li>
     </ol>
 
-    <h3>Getting to the CyI</h3>
+    <h3>Getting to the the Cyprus Institute</h3>
         <p>
-            We organised a minibus that will take participants from the city centre to the CyI in the morning and back in the evening. The bus will depart from the city centre at 8:30am (Solomos Sq - <XLink href="https://goo.gl/maps/MuhJD47J83uNSVr58">https://goo.gl/maps/MuhJD47J83uNSVr58</XLink>) and it will take participants back at 5:15pm.
+            We organised a minibus that will take participants from the city centre to the Cyprus Institute in the morning and back in the evening. The bus will depart from the city centre at 8:30am (Solomos Sq - <XLink href="https://goo.gl/maps/MuhJD47J83uNSVr58">https://goo.gl/maps/MuhJD47J83uNSVr58</XLink>) and it will take participants back at 5:15pm.
         </p>
     
     <h3>Meals</h3>
         <p>
-            Lunch and coffee break will be provided by CyI during the Workshop. If you wish to order something else or have food delivered in the evening, <XLink href="https://www.foody.com.cy/">Foody</XLink> and <XLink href="https://wolt.com/en/cyp">Wolt</XLink> are two of the most commonly used apps for delivery.
+            Lunch and coffee break will be provided by the Cyprus Institute during the Workshop. If you wish to order something else or have food delivered in the evening, <XLink href="https://www.foody.com.cy/">Foody</XLink> and <XLink href="https://wolt.com/en/cyp">Wolt</XLink> are two of the most commonly used apps for delivery.
         </p>
     
     <h3>How to get here</h3>
     <h4>Airports</h4>
         <p>
-            The easiest way to get to Cyprus is by air. There are two international airports that serve Cyprus, <XLink href="https://www.hermesairports.com/flight-info/arrivals-and-departures-lca">Larnaca Airport</XLink> and <XLink href="https://www.hermesairports.com/flight-info/arrivals-and-departures-pfo">Paphos airport</XLink>. The airport closest to the CyI is Larnaca Airport, located 50km from Nicosia.
+            The easiest way to get to Cyprus is by air. There are two international airports that serve Cyprus, <XLink href="https://www.hermesairports.com/flight-info/arrivals-and-departures-lca">Larnaca Airport</XLink> and <XLink href="https://www.hermesairports.com/flight-info/arrivals-and-departures-pfo">Paphos airport</XLink>. The airport closest to the Cyprus Institute is Larnaca Airport, located 50km from Nicosia.
         </p>
     
     <h3>Immigration regulations</h3>

@@ -21,10 +21,13 @@ const links = [
 
 const SecondPage = () => (
   <Layout workshop="main">
-    <h1><b>Frontiers in Vector Modelling</b></h1>
+    <h1><b>Frontiers in Climate-Sensitive Vector Modelling</b></h1>
     <h2>Annual Workshop on Modelling Innovations for Integrated Vector and Disease Management</h2>
     <p>
-      This annual workshop brings together a diverse community of mathematical modellers, climate scientists, entomologists, epidemiologists, and public health professionals. Each year, the event spotlights a specific theme aligned with the mission of the hosting institution, fostering collaboration, knowledge sharing, and data exchange across disciplines. The workshop includes a dedicated training session designed for participants at all experience levels, promoting knowledge transfer and the adoption of novel technologies for public health planning.
+      This annual workshop brings together a diverse community of mathematical modellers, climate scientists, entomologists, epidemiologists, and public health professionals. Each year, the event spotlights a specific theme aligned with the mission of the hosting institution, fostering collaboration, knowledge sharing, and data exchange across disciplines. 
+    </p>
+    <p>
+      The workshop includes a dedicated training session designed for participants at all experience levels, promoting knowledge transfer and the adoption of novel technologies for public health planning.
       Together, participants critically evaluate current modelling approaches, explore the potential of ensemble methods, and develop actionable strategies to improve the prediction and mitigation of epidemic risks. By addressing critical gaps at the nexus of scientific innovation and practical public health applications, this workshop contributes to advancing the global fight against vector-borne diseases. 
     </p>
     <ul className={styles.list}>

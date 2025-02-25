@@ -6,7 +6,13 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout workshop="main">
     <p>
-    Climate-sensitive vectors are increasingly driving the spread of vector-borne diseases, posing significant public health challenges worldwide. This workshop is dedicated to exploring the diverse modelling approaches used to forecast mosquito and virus transmission. We envision this gathering as a collaborative platform for open discussions, where participants can collectively assess the strengths and limitations of existing models, delve into the potential of ensemble modelling, and explore practical applications for predicting epidemic risks.
+    Climate-sensitive vectors, such as mosquitoes, ticks, and sandflies, are playing an increasingly prominent role in driving the spread of vector-borne diseases, exacerbating public health challenges worldwide. Rising global temperatures, shifting precipitation patterns, and changing ecosystems are creating new opportunities for these vectors to thrive, adapt, and invade previously unaffected regions. The growing burden of vector populations and disease transmission underscores the urgent need for robust forecasting tools to anticipate and mitigate epidemic risks. 
+    </p>
+    <p>   
+    This workshop is dedicated to exploring a diverse range of innovative modelling approaches designed to predict mosquito and virus transmission dynamics under varying environmental conditions. By bringing together experts from multiple disciplines, we aim to foster a collaborative space for open and constructive discussions. Participants will critically assess the strengths and limitations of existing models, explore the potential of emerging strategies—such as ensemble modelling techniques—to enhance predictive accuracy, and identify key knowledge gaps that need to be addressed.
+    </p>
+    <p>
+    Furthermore, we will emphasise the practical applications of these models in real-world public health decision-making. From early warning systems to targeted intervention strategies, we will explore how predictive modelling can inform policies, optimise resource allocation, and ultimately contribute to reducing the burden of vector-borne diseases in an era of rapid climate change.
     </p>
   </Layout>
 )
