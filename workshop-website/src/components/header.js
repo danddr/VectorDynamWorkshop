@@ -6,6 +6,8 @@ import * as styles from "../components/index.module.css"
 
 const mainPageLinks = [
   { text: "Home", url: "/" },
+  { text: "Who are we?", url: "/who" },
+  { text: "Special Issue", url: "/special" },
   { text: "Data & Models", url: "/resources" },
   { text: "Workshops", url: "/workshops" }
 ]

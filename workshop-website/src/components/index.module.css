@@ -1,4 +1,5 @@
-.list {
+.list,
+.enlist {
   display: grid;
   margin: 0;
   /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
@@ -11,6 +12,10 @@
   );
   margin-bottom: var(--size-gap);
   margin-top: var(--size-gap);
+}
+
+.enlist {
+  list-style-type: none;
 }
 
 .listItem {
