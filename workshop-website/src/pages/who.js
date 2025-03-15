@@ -47,12 +47,7 @@ const links = [
 
 const SecondPage = () => (
   <Layout workshop="main">
-    <h1><b>Frontiers in Climate-Sensitive Vector Modelling</b></h1>
-    <h2>Annual Workshop on Modelling Innovations for Integrated Vector and Disease Management</h2>
-    <p>
-      This is who we are.
-    </p>
-    <ul className={styles.enlist}>
+      <ul className={styles.enlist}>
       {links.map((link, i) => (
         <li key={link.url} className={styles.listItem}>
           <React.Fragment key={i}>

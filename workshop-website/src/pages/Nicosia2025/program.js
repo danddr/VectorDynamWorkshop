@@ -28,15 +28,15 @@ const ProgramPage = () => (
             {/* Training Session pt1 */}
             <tr>
               <td rowSpan="3">9:00 - 11:00</td>
-              <td colSpan="2" className="center strong">Training session pt1</td>
+              <td colSpan="2" className="center strong">Training session pt1 (Environmental covariates) </td>
             </tr>
             <tr>
               <td>9:00</td>
-              <td>GBIF + VectAbundance + VecDyn: Where to get observational data</td>
+              <td>CDS and ERAland and similar environmental datacubes - Cyril(?)</td>
             </tr>
             <tr>
               <td>10:00</td>
-              <td>CDS and ERAland and similar environmental datacubes - Cyril(?)</td>
+              <td> Guest Lecture - TBA</td>
             </tr>
             {/* Coffee Break */}
             <tr>
@@ -50,11 +50,11 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>11:30</td>
-              <td>Building life-history traits response curves - Paul Huxley (?)</td>
+              <td>Deterministic and ODE Models - Pachka (?)</td>
             </tr>
             <tr>
               <td>12:30</td>
-              <td>Deterministic and ODE Models - Pachka (?)</td>
+              <td>Combining Neural Networks and ODE Models - Mina (?)</td>
             </tr>
             {/* Lunch */}
             <tr>
@@ -113,7 +113,7 @@ const ProgramPage = () => (
             {/* Summary Session */}
             <tr>
               <td rowSpan="3">9:00 - 9:30</td>
-              <td colSpan="2" className="center">Summary of the previous workshop on Aedes albopictus</td>
+              <td colSpan="2" className="center strong">Summary of the previous workshop on Aedes albopictus</td>
             </tr>
             <tr>
               <td>9:00</td>
@@ -123,35 +123,53 @@ const ProgramPage = () => (
               <td>9:15</td>
               <td>Summary of the perspective paper we are writing - Kamil/Daniele</td>
             </tr>
-            {/* Keynote */}
+
+           {/* Modelling Aedes aegypti */}
             <tr>
-              <td>9:30 - 10:00</td>
-              <td colSpan="2" className="center strong">Keynote speech - Rachel Lowe (?)</td>
+              <td rowSpan="4">9:30 - 10:30</td>
+              <td colSpan="2" className="center strong">Modelling Aedes aegypti</td>
             </tr>
+            <tr>
+              <td>9:30</td>
+              <td>Keynote speech - TBA</td>
+            </tr>
+            <tr>
+              <td>10:00</td>
+              <td> TBA</td>  
+            </tr>
+            <tr>
+              <td>10:15</td>
+              <td> TBA</td> 
+            </tr>
+
             {/* Coffee Break */}
             <tr>
-              <td>11:00 - 11:30</td>
+              <td>10:30 - 11:00</td>
               <td colSpan="2" className="center light">Coffee Break</td>
             </tr>
             {/* Training Data Session */}
             <tr>
-              <td rowSpan="5">11:30 - 12:30</td>
-              <td colSpan="2" className="center strong">Training data session pt2 – Surveillance data</td>
+              <td rowSpan="6">11:00 - 12:30</td>
+              <td colSpan="2" className="center strong">Training data session: Surveillance data</td>
             </tr>
             <tr>
-              <td>11:30</td>
+              <td>11:00</td>
+              <td> a short intro on GBIF + VectAbundance + VecDyn: Where to get observational data - TBA </td>
+            </tr>
+            <tr>
+              <td>11:15</td>
               <td>Turkey - Mehmet</td>
             </tr>
             <tr>
-              <td>11:45</td>
+              <td>11:30</td>
               <td>Egypt - Emad</td>
             </tr>
             <tr>
-              <td>12:00</td>
+              <td>11:45</td>
               <td>Cyprus - Ministry of Health</td>
             </tr>
             <tr>
-              <td>12:15</td>
+              <td>12:00</td>
               <td>Israel - Oscar</td>
             </tr>
             {/* Lunch */}
@@ -176,7 +194,7 @@ const ProgramPage = () => (
             {/* Models Session */}
             <tr>
               <td rowSpan="7">13:30 - 15:30</td>
-              <td>Models session</td>
+              <td> colSpan="2" className="center strong" >Models session< /td>
               <td></td>
             </tr>
             <tr>
