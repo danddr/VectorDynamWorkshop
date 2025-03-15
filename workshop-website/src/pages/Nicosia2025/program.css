@@ -1,0 +1,70 @@
+/* Container styling */
+.workshop-table {
+    max-width: 960px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Headings */
+  .workshop-table h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #2a2a2a;
+  }
+  
+  .workshop-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #2a2a2a;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  th {
+    background-color: var(--color-primary);;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  /* Center content for cells spanning multiple columns */
+  .center {
+    text-align: center;
+  }
+  
+  /* Optionally style empty cells if needed */
+  .empty-cell {
+    background-color: #fafafa;
+  }
+  
+  .day-section h2 {
+    color: var(--color-primary);
+    font-weight: bold;
+  }
+
+  .strong {
+    font-weight: bold;
+  }
+
+  .light {
+    background-color: #ccc;
+  }
