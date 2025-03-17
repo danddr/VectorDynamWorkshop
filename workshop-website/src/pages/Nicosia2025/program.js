@@ -8,6 +8,9 @@ import Seo from "../../components/seo"
 
 const ProgramPage = () => (
     <Layout workshop="Nicosia2025">
+        <p>
+            <b>Please note that the program below is a draft and will be updated soon.</b>
+        </p>
       {/* Day 1 */}
       <section className="day-section">
         <h2>Day 1: 17th September 2025</h2>

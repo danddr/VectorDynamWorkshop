@@ -18,7 +18,6 @@ const IndexPage = () => (
     <h4>Local Organisation Team:</h4>
     <ul>
     <li>Eleni Zenonos</li>
-    <li>Marina Manoura</li>
     <li>Andriana Andreou</li>
     <li>Eirini Chrysanthou</li>
     <li>Marco Neira</li>

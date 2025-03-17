@@ -19,7 +19,7 @@ const RegistrationPage = () => (
       <li>A post-workshop session on GIS-based early warning support systems</li>
     </ul>
     <p>
-    Please refer to the <Link to="/Nicosia2025/program">program</Link> for detailed requirements for each session. To register your interest in attending, kindly complete the <XLink href="https://docs.google.com/forms/d/e/1FAIpQLScx8OcZ8_uUmox0c8WNcSz5jQ490KqBxuQvbt94Gdakc40naQ/viewform?usp=dialog">participation form</XLink>.
+    Please refer to the <Link to="/Nicosia2025/program">program</Link> for detailed requirements for each session. To register your interest in attending, kindly complete the <XLink href="https://docs.google.com/forms/d/e/1FAIpQLScx8OcZ8_uUmox0c8WNcSz5jQ490KqBxuQvbt94Gdakc40naQ/viewform?usp=dialog">participation form</XLink> by <b>April 30<sup>th</sup></b>.
     </p>
     <p>
     Coffee breaks and lunches will be provided by the organising team. Participants are kindly asked to cover their own expenses for the Gala Dinner on September 18<sup>th</sup>.
