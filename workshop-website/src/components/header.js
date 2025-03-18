@@ -18,7 +18,7 @@ const mainPageLinks_ws2024 = [
   { text: "Program", url: "/Bologna2024/program" },
   { text: "Directions", url: "/Bologna2024/directions" },
   { text: "Presentations", url: "/Bologna2024/presentations" },
-  { text: "Workshops", url: "/workshops" }
+  { text: "Main", url: "/" }
 ]
 
 const mainPageLinks_ws2025 = [
@@ -27,7 +27,7 @@ const mainPageLinks_ws2025 = [
   { text: "Program", url: "/Nicosia2025/program" },
   { text: "Directions", url: "/Nicosia2025/directions" },
   { text: "Exercise", url: "/Nicosia2025/exercise" },
-  { text: "Workshops", url: "/workshops" }
+  { text: "Main", url: "/" }
 ]
 
 const Header = ({ workshop, siteTitle }) => {
