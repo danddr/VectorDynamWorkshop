@@ -5,7 +5,6 @@ import "./program.css"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import XLink from "../../components/xlink"
 
 const ProgramPage = () => (
     <Layout workshop="Nicosia2025">
@@ -31,15 +30,16 @@ const ProgramPage = () => (
             </tr>
             {/* Training Session pt1 */}
             <tr>
-              <td>9:00 - 11:00</td>
-              <td colSpan="2">
-                <p className="center strong">
-                Training session pt1 (Environmental covariates) 
-                </p>
-                <p>
-                This session will cover environmental covariates, including where to locate appropriate datasets and how to retrieve, process, and incorporate them into climate-sensitive models. Participants are expected to have prior experience with GIS tools (e.g., ArcGIS or QGIS) and scripting languages (e.g., R or Python).
-                </p>
-                </td>
+              <td rowSpan="3">9:00 - 11:00</td>
+              <td colSpan="2" className="center strong">Training session pt1 (Environmental covariates) </td>
+            </tr>
+            <tr>
+              <td>9:00</td>
+              <td>CDS and ERAland and similar environmental datacubes - Cyril(?)</td>
+            </tr>
+            <tr>
+              <td>10:00</td>
+              <td> Guest Lecture - TBA</td>
             </tr>
             {/* Coffee Break */}
             <tr>
@@ -48,15 +48,16 @@ const ProgramPage = () => (
             </tr>
             {/* Training Session pt2 */}
             <tr>
-              <td>11:30 - 13:30</td>
-              <td colSpan="2">
-                <p className="center strong">
-                Training session pt2 (Modelling 1)
-                </p>
-                <p>
-                This session will cover ordinary differential equation (ODE) models and applications involving artificial intelligence (AI). Participants will explore fundamental concepts by developing and analysing models that incorporate environmental covariates. Prior experience with scripting languages (e.g., R, Python, or Julia) and familiarity with Linux environments are required.
-                </p>
-                </td>
+              <td rowSpan="3">11:30 - 13:30</td>
+              <td colSpan="2" className="center strong">Training session pt2 (Modelling 1)</td>
+            </tr>
+            <tr>
+              <td>11:30</td>
+              <td>Deterministic and ODE Models - Pachka (?)</td>
+            </tr>
+            <tr>
+              <td>12:30</td>
+              <td>Combining Neural Networks and ODE Models - Mina (?)</td>
             </tr>
             {/* Lunch */}
             <tr>
@@ -65,13 +66,28 @@ const ProgramPage = () => (
             </tr>
             {/* Training Session pt3 */}
             <tr>
-              <td>14:30 - 18:00</td>
-              <td colSpan="2">
-                <p className="center strong">Training session pt3 (Modelling 2)</p>
-                <p>
-                This session will discuss innovative modelling methodologies, including stochastic, structured, and delayed-response population dynamics models. Participants should have prior experience with Docker containers, the bash command-line interface, and scripting languages (e.g., R, Python, or Julia).
-                </p>
-                </td>
+              <td rowSpan="6">14:30 - 18:00</td>
+              <td colSpan="2" className="center strong">Training session pt3 (Modelling 2)</td>
+            </tr>
+            <tr>
+              <td>14:30</td>
+              <td>Stochastic models: dynamAedes - Daniele</td>
+            </tr>
+            <tr>
+              <td>15:30 - 15:45</td>
+              <td colSpan="2" className="center light">Coffee Break</td>
+            </tr>
+            <tr>
+              <td>15:45</td>
+              <td>Structured population models: sPop and PopJSON - Kamil</td>
+            </tr>
+            <tr>
+              <td>16:45 - 17:00</td>
+              <td colSpan="2" className="center light">Coffee Break</td>
+            </tr>
+            <tr>
+              <td>17:00</td>
+              <td>Phenotypic plasticity and DDE models - Dominic(?)</td>
             </tr>
           </tbody>
         </table>
@@ -100,7 +116,7 @@ const ProgramPage = () => (
             {/* Summary Session */}
             <tr>
               <td rowSpan="3">9:00 - 9:30</td>
-              <td colSpan="2" className="center strong">Summary of the previous workshop on <i>Aedes albopictus</i></td>
+              <td colSpan="2" className="center strong">Summary of the previous workshop on Aedes albopictus</td>
             </tr>
             <tr>
               <td>9:00</td>
@@ -114,7 +130,7 @@ const ProgramPage = () => (
            {/* Modelling Aedes aegypti */}
             <tr>
               <td rowSpan="4">9:30 - 10:30</td>
-              <td colSpan="2" className="center strong">Modelling <i>Aedes aegypti</i></td>
+              <td colSpan="2" className="center strong">Modelling Aedes aegypti</td>
             </tr>
             <tr>
               <td>9:30</td>
@@ -181,7 +197,8 @@ const ProgramPage = () => (
             {/* Models Session */}
             <tr>
               <td rowSpan="7">13:30 - 15:30</td>
-              <td colSpan="2" className="center strong">Models session</td>
+              <td> colSpan="2" className="center strong" >Models session< /td>
+              <td></td>
             </tr>
             <tr>
               <td>13:30</td>
@@ -210,12 +227,13 @@ const ProgramPage = () => (
             {/* Coffee Break */}
             <tr>
               <td>15:30 - 16:00</td>
-              <td colSpan="2" className="center light">Coffee Break</td>
+              <td colSpan="2" className="center">Coffee Break</td>
             </tr>
             {/* Discussion */}
             <tr>
               <td rowSpan="3">16:00 - 18:00</td>
-              <td colSpan="2" className="center strong">Discussion</td>
+              <td>Discussion</td>
+              <td></td>
             </tr>
             <tr>
               <td>16:00</td>
@@ -240,7 +258,7 @@ const ProgramPage = () => (
           <tbody>
             <tr>
               <td>20:30</td>
-              <td className="center light">Social Dinner (Downtown, XXXX)</td>
+              <td className="center">Social Dinner (Downtown, XXXX)</td>
             </tr>
           </tbody>
         </table>
@@ -270,7 +288,7 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>10:30 - 11:00</td>
-              <td className="center light">Coffee Break</td>
+              <td className="center">Coffee Break</td>
             </tr>
             <tr>
               <td>11:00 - 12:45</td>
@@ -280,7 +298,7 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>12:45 - 13:00</td>
-              <td className="center light">Concluding remarks + questionnaire</td>
+              <td className="center">Concluding remarks + questionnaire</td>
             </tr>
           </tbody>
         </table>
@@ -299,12 +317,20 @@ const ProgramPage = () => (
             {/* Training Session pt4 */}
             <tr>
               <td rowSpan="4">14:00 - 17:00</td>
-              <td colSpan="2">
-                <p className="center strong">Training session pt4 - Early Warning System Dashboards</p>
-                <p>
-                This session is open to all participants and does not require prior programming experience. Demonstrations of geographical information systems (GIS) and early warning support systems (e.g., the MOOD Platform and the <XLink href="https://veclim.com">VEClim Platform</XLink>) will be complemented by hands-on tutorials. Participants are encouraged to bring their laptops or other smart mobile devices to fully engage with the tutorials.
-                </p>
-                </td>
+              <td>Training session pt4 - Early Warning System Dashboards</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>14:00</td>
+              <td>GIS-based exercise and risk assessment - Willy (?)</td>
+            </tr>
+            <tr>
+              <td>15:00</td>
+              <td>VeClim - Kamil</td>
+            </tr>
+            <tr>
+              <td>16:00</td>
+              <td>MOOD (arbocarto) - Pachka (?)</td>
             </tr>
           </tbody>
         </table>
