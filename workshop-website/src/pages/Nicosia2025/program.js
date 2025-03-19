@@ -3,6 +3,8 @@ import * as React from "react"
 import * as styles from "../../components/table.css"
 import "./program.css"
 
+import { Link } from "gatsby"
+
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import XLink from "../../components/xlink"
@@ -99,36 +101,28 @@ const ProgramPage = () => (
             </tr>
             {/* Summary Session */}
             <tr>
-              <td rowSpan="3">9:00 - 9:30</td>
-              <td colSpan="2" className="center strong">Summary of the previous workshop on <i>Aedes albopictus</i></td>
+              <td>9:00 - 9:30</td>
+              <td colSpan="2">
+                <p className="center strong">
+                    Summary of the previous workshop on <i>Aedes albopictus</i>
+                </p>
+                <p>
+                    This opening session of the Vector Modelling Workshop will introduce the workshop series' concept, summarize the discussions and outcomes from the previous workshop, held in Bologna, Italy (2024), and present the emerging ensemble model on <i>Aedes albopictus</i>.
+                </p>
+                </td>
             </tr>
-            <tr>
-              <td>9:00</td>
-              <td>Ensemble model output - Kamil/Daniele</td>
-            </tr>
-            <tr>
-              <td>9:15</td>
-              <td>Summary of the perspective paper we are writing - Kamil/Daniele</td>
-            </tr>
-
            {/* Modelling Aedes aegypti */}
             <tr>
-              <td rowSpan="4">9:30 - 10:30</td>
-              <td colSpan="2" className="center strong">Modelling <i>Aedes aegypti</i></td>
+              <td>9:30 - 10:30</td>
+              <td colSpan="2">
+                <p className="center strong">
+                    Modelling <i>Aedes aegypti</i>
+                </p>
+                <p>
+                    This session will commence with a Keynote speech and is dedicated to discussing pressing issues in data collection, modelling, and early warning system design.
+                </p>
+                </td>
             </tr>
-            <tr>
-              <td>9:30</td>
-              <td>Keynote speech - TBA</td>
-            </tr>
-            <tr>
-              <td>10:00</td>
-              <td> TBA</td>  
-            </tr>
-            <tr>
-              <td>10:15</td>
-              <td> TBA</td> 
-            </tr>
-
             {/* Coffee Break */}
             <tr>
               <td>10:30 - 11:00</td>
@@ -136,28 +130,15 @@ const ProgramPage = () => (
             </tr>
             {/* Training Data Session */}
             <tr>
-              <td rowSpan="6">11:00 - 12:30</td>
-              <td colSpan="2" className="center strong">Training data session: Surveillance data</td>
-            </tr>
-            <tr>
-              <td>11:00</td>
-              <td> a short intro on GBIF + VectAbundance + VecDyn: Where to get observational data - TBA </td>
-            </tr>
-            <tr>
-              <td>11:15</td>
-              <td>Turkey - Mehmet</td>
-            </tr>
-            <tr>
-              <td>11:30</td>
-              <td>Egypt - Emad</td>
-            </tr>
-            <tr>
-              <td>11:45</td>
-              <td>Cyprus - Ministry of Health</td>
-            </tr>
-            <tr>
-              <td>12:00</td>
-              <td>Israel - Oscar</td>
+              <td>11:00 - 12:30</td>
+              <td colSpan="2">
+                <p className="center strong">
+                    The session on surveillance data
+                </p>
+                <p>
+                    This session will discuss the observational data requirements of climate-sensitive mathematical modelling and proceed with latest observations of <i>Aedes aegypti</i>, possible risks to public health, and effective management strategies in the Eastern Mediterranean and Middle East (EMME) region.
+                </p>
+              </td>
             </tr>
             {/* Lunch */}
             <tr>
@@ -180,32 +161,15 @@ const ProgramPage = () => (
           <tbody>
             {/* Models Session */}
             <tr>
-              <td rowSpan="7">13:30 - 15:30</td>
-              <td colSpan="2" className="center strong">Models session</td>
-            </tr>
-            <tr>
-              <td>13:30</td>
-              <td>Rachel Lowe/Someone from her group</td>
-            </tr>
-            <tr>
-              <td>13:50</td>
-              <td>Joacim Rocklow?</td>
-            </tr>
-            <tr>
-              <td>14:10</td>
-              <td>Veronica Andreo (from Argentina)?</td>
-            </tr>
-            <tr>
-              <td>14:30</td>
-              <td>Workshop organiser presentations (all our models in a unique presentation)</td>
-            </tr>
-            <tr>
-              <td>14:50</td>
-              <td>Modeller A</td>
-            </tr>
-            <tr>
-              <td>15:10</td>
-              <td>Modeller B</td>
+              <td>13:30 - 15:30</td>
+              <td colSpan="2">
+                <p className="center strong">
+                    Models session
+                </p>
+                <p>
+                    This session is dedicated to the presentations of ideas and approaches to model <i>Aedes aegypti</i> dynamics and associated disease risk in the EMME region. Please find more information in this <Link to="/Nicosia2025/exercise">Exercise</Link> section.
+                </p>
+                </td>
             </tr>
             {/* Coffee Break */}
             <tr>
@@ -214,16 +178,15 @@ const ProgramPage = () => (
             </tr>
             {/* Discussion */}
             <tr>
-              <td rowSpan="3">16:00 - 18:00</td>
-              <td colSpan="2" className="center strong">Discussion</td>
-            </tr>
-            <tr>
-              <td>16:00</td>
-              <td>Group discussion</td>
-            </tr>
-            <tr>
-              <td>17:15</td>
-              <td>First general discussion</td>
+              <td>16:00 - 18:00</td>
+              <td colSpan="2">
+                <p className="center strong">
+                    Discussion
+                </p>
+                <p>
+                    An extended group discussion is reserved to discuss the ideas presented, possible implications, and future actions.
+                </p>
+                </td>
             </tr>
           </tbody>
         </table>
@@ -240,7 +203,7 @@ const ProgramPage = () => (
           <tbody>
             <tr>
               <td>20:30</td>
-              <td className="center light">Social Dinner (Downtown, XXXX)</td>
+              <td className="center light">Social Dinner (Downtown, TBA)</td>
             </tr>
           </tbody>
         </table>
@@ -263,9 +226,18 @@ const ProgramPage = () => (
             <tr>
               <td>9:00 - 10:30</td>
               <td>
-                <strong>Presentation of the ensemble on aegypti</strong>
-                <br />
-                Summary of the models comparison to guide the discussion (20 min). First group activity (40–60 min): What next in terms of modelling? What have you found interesting? Discussion: policy relevance of the models; what’s next? How can we move forward?
+                <p className="center strong">
+                    Presentation of the ensemble on <i>Aedes aegypti</i>
+                </p>
+                <p>
+                Summary of model comparisons to guide our discussion.
+                </p>
+                <p>
+                First group activity: What are the next steps for modeling development? Share what you found most interesting.
+                </p>
+                <p>
+                Discussion points: Policy relevance of these models, future directions, and strategies for moving forward.
+                </p>
               </td>
             </tr>
             <tr>
@@ -275,7 +247,10 @@ const ProgramPage = () => (
             <tr>
               <td>11:00 - 12:45</td>
               <td>
-                Plenary discussion: summary of the previous group activity; one team leader for each group presents; a joint paper summarising the outcome of the conference and the model comparisons.
+                <p className="center strong">Plenary discussion</p>
+                <p>
+                Summary of the previous group activity: One team leader from each group will present their findings, followed by planning for a joint paper that summarizes the conference outcomes and model comparisons.
+                </p>
               </td>
             </tr>
             <tr>
@@ -300,7 +275,7 @@ const ProgramPage = () => (
             <tr>
               <td rowSpan="4">14:00 - 17:00</td>
               <td colSpan="2">
-                <p className="center strong">Training session pt4 - Early Warning System Dashboards</p>
+                <p className="center strong">Training session pt4 (Early warning dashboards)</p>
                 <p>
                 This session is open to all participants and does not require prior programming experience. Demonstrations of geographical information systems (GIS) and early warning support systems (e.g., the MOOD Platform and the <XLink href="https://veclim.com">VEClim Platform</XLink>) will be complemented by hands-on tutorials. Participants are encouraged to bring their laptops or other smart mobile devices to fully engage with the tutorials.
                 </p>

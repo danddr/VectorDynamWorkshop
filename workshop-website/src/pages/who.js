@@ -41,7 +41,9 @@ const links = [
     image: img_KamilErguler,
     url: "https://kerguler.github.io/",
     description:
-      <>The one with the dream...</>
+      <>
+      A mathematical modeller working on climate change impact assessment for vectors and vector-borne diseases.
+      </>
   }
 ]
 
