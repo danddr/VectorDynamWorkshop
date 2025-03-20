@@ -34,7 +34,7 @@ const links = [
     image: img_DanieleDaRe,
     url: "https://scholar.google.com/citations?user=efoqkBwAAAAJ&hl=en",
     description:
-      <>The one with the plan...</>  
+      <>A quantitative biologist interested in spatial analysis and spatial modelling applied to vectors ecology and biodiversity conservation.</>  
   },
   {
     text: "Kamil Erguler",
