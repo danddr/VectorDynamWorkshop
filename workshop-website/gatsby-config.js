@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Climate-Sensitive Vector Dynamics Modelling`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `@kerguler`,
+    siteUrl: `https://www.vectormodelling.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
