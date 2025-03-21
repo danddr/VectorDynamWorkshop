@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[809],{9836:function(t,e,a){a.r(e),a.d(e,{Head:function(){return l}});var n=a(7294),s=a(5592),u=a(9357);const l=()=>n.createElement(u.Z,{title:"404: Not Found"});e.default=()=>n.createElement(s.Z,{workshop:"Bologna2024"},n.createElement("h1",null,"404: Not Found"),n.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}]);
+//# sourceMappingURL=component---src-pages-bologna-2024-404-js-e9a11f2070d4ec389563.js.map
