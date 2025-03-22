@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `Climate-Sensitive Vector Dynamics Modelling`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `A simple website for the Climate-Sensitive Vector Dynamics Modelling Workshop`,
     author: `@kerguler`,
     siteUrl: `https://www.vectormodelling.com/`,
   },
