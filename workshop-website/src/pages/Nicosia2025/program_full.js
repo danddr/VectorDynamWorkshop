@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import * as styles from "../../components/table.css"
 import "./program.css"
 
 import Layout from "../../components/layout"
@@ -197,7 +196,7 @@ const ProgramPage = () => (
             {/* Models Session */}
             <tr>
               <td rowSpan="7">13:30 - 15:30</td>
-              <td> colSpan="2" className="center strong" >Models session< /td>
+              <td colSpan="2" className="center strong">Models session</td>
               <td></td>
             </tr>
             <tr>

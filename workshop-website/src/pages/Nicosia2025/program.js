@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import * as styles from "../../components/table.css"
 import "./program.css"
 
 import { Link } from "gatsby"
