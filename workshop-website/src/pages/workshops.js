@@ -15,7 +15,7 @@ const links = [
     text: "Bologna 2024",
     url: "/Bologna2024",
     description:
-      <>The inaugural workshop, which laid the foundation for the community, was held in Bologna, Italy, with a focus on <i>Aedes aegypti</i>.</>
+      <>The inaugural workshop, which laid the foundation for the community, was held in Bologna, Italy, with a focus on <i>Aedes albopictus</i>.</>
   }
 ]
 
