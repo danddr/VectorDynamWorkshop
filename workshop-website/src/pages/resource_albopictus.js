@@ -102,7 +102,7 @@ and <XLink href="https://github.com/kerguler/PopJSON/">PopJSON package</XLink> f
             <li>Update: Breeding model and Hydrology (<XLink href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150626">Asare et al. 2016</XLink>, <XLink href="https://www.geospatialhealth.net/gh/article/view/390/358">Asare et al. 2016</XLink>)</li>
             <li>Update: Genetic Algorithm calibration (<XLink href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0200638">Tompkins et al. 2018</XLink>)</li>
             <li>Update: Forecasting (<XLink href="https://journals.ametsoc.org/view/journals/apme/54/3/jamc-d-14-0156.1.xml?tab_body=pdf">Tompkins et al. 2015</XLink>, <XLink href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GH000157">Tompkins et al. 2019</XLink>)</li>
-            <li>Update: Breeding model and Aedes parameterization (Zornoza et al. 2024)</li>
+            <li>Update: Breeding model and <em>Aedes</em> parameterization (Zornoza et al. 2024)</li>
             <li>Install Aedes version: git clone https://gitlab.com/tompkins/vectri.git; git checkout tags/v1.11.3 </li>
             <li> Run example (<XLink href="https://osf.io/3gcfb/">OSF repository</XLink>)</li>
         </ul>

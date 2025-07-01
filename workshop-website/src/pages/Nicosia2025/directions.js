@@ -98,6 +98,11 @@ const DirectionsPage = () => (
             <li>Inter-city taxi companies, which you book via phone or online. <XLink href="https://www.tripadvisor.com/Attractions-g190383-Activities-c59-t182-Nicosia_Nicosia_District.html">https://www.tripadvisor.com/Attractions-g190383-Activities-c59-t182-Nicosia_Nicosia_District.html</XLink></li>
         </ul>    
     
+    <h4>Bolt Rides</h4>
+        <p>
+            You can also book a ride through the <XLink href="https://bolt.eu/en-cy/rides/">Bolt App</XLink>, which is a ride-hailing service, similar to Uber, connecting users with drivers for on-demand transportation.
+        </p>
+    
     <h3>Other useful information</h3>
     
     <h4>Weather in Cyprus</h4>
