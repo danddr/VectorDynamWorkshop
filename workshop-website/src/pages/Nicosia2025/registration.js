@@ -25,7 +25,7 @@ const RegistrationPage = () => (
     To register your interest, kindly complete the <XLink href="https://docs.google.com/forms/d/e/1FAIpQLScx8OcZ8_uUmox0c8WNcSz5jQ490KqBxuQvbt94Gdakc40naQ/viewform?usp=dialog">participation form</XLink> by <b>April 15<sup>th</sup></b>.
     </p>
     <p>
-    Coffee breaks and lunches will be provided by the organising team. Participants are kindly asked to cover their own expenses for the Gala Dinner on September 18<sup>th</sup>.
+    Coffee breaks and lunches will be provided by the organising team. The expenses of the Social Dinner, to be held on September 18<sup>th</sup>, will be covered by the organising team thanks to the generous support of <XLink href="https://www.cirad.fr/en">CIRAD</XLink>.
     </p>
   </Layout>
 )
