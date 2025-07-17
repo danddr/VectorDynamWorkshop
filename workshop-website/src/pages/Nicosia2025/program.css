@@ -68,3 +68,8 @@
   .light {
     background-color: #ccc;
   }
+
+  .emph {
+    font-style: italic;
+  }
+
