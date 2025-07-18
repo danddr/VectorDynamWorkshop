@@ -175,12 +175,12 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>9:15</td>
-              <td>Ensemble model output</td>
+              <td>Preliminary results on <i>Aedes albopictus</i> dynamics in Italy and beyond</td>
               <td>Kamil Erguler</td>
             </tr>
             <tr>
               <td>9:30</td>
-              <td>Summary of the perspective paper we are writing</td>
+              <td>Modeling the risk posed by <i>Aedes</i> mosquitoes in Europe: Identifying research needs from public health stakeholders and field entomologists</td>
               <td>Daniele Da Re</td>
             </tr>
 
@@ -205,12 +205,12 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>10:30</td>
-              <td>Brief intro on GBIF + VectAbundance + VecDyn, VectorNet: Where to get observational data?</td> 
+              <td>Summary of open access observational vector presence and abundance datasets</td> 
               <td>William Wint (online)</td>
             </tr>
             <tr>
               <td>10:45</td>
-              <td>TBA</td>
+              <td>Epidemiological data harmonisation: WHO experience</td>
               <td>Chloe Morgan Rice</td>
             </tr>
 
@@ -292,7 +292,7 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>14:10</td>
-              <td>Argentinian model of <i>Aedes aegypti</i></td>
+              <td>Comparison of two mechanistic models of <i>Aedes aegypti</i> population dynamics in 10 Argentinean localities between 2015-2024</td>
               <td>Veronica Andreo (online)</td>
             </tr>
             {/* Coffee Break */}
