@@ -282,8 +282,8 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>13:30</td>
-              <td>IDExtremes and the work of Rachel Lowe's team</td>
-              <td>Martin Lotto Batista</td>
+              <td>Innovative modelling tools for strengthening global health resilience</td>
+              <td>Martín Lotto Batista</td>
             </tr>
             <tr>
               <td>13:50</td>
@@ -369,7 +369,7 @@ const ProgramPage = () => (
                   <li><strong>First group activity of the day</strong> (40-60 min): What next in terms of modelling? What have you found interesting that answers the questions you had when you came here?
                     <ul>
                         <li>Discussion: policy relevance of the models</li>
-                        <li>What’s next? How can we move forward?</li>
+                        <li>What's next? How can we move forward?</li>
                     </ul>
                   </li>
                 </ul>
@@ -430,8 +430,8 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>14:00</td>
-              <td>IDExtremes</td>
-              <td>Martin Lotto Batista</td>
+              <td>GHRtools</td>
+              <td>Martín Lotto Batista</td>
             </tr>
             <tr>
               <td>15:00</td>
