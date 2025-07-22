@@ -250,7 +250,7 @@ const ProgramPage = () => (
             <tr>
               <td>12:00</td>
               <td>Madeira</td>
-              <td>Hugo Osorio</td>
+              <td>Hugo Costa Osório (online)</td>
             </tr>
             {/* Lunch */}
             <tr>
