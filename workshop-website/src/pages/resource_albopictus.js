@@ -62,7 +62,7 @@ and <XLink href="https://github.com/kerguler/PopJSON/">PopJSON package</XLink> f
     <p>This is a R package and companion web interface, designed to support vector control activities design at local scale. It is based on a multi-level model including two different components: the deterministic population dynamics of Aedes mosquitoes (Ae. albopictus and Ae. aegypti) in various environments and the stochastic dynamics of transmission of dengue, Zika and chikungunya viruses.</p>
     <p>Useful resources:
         <ul>
-            <li>The source code is available at <XLink href="https://forgemia.inra.fr/umr-astre/arbocartoR">Github</XLink></li>
+            <li>The source code is available on <XLink href="https://gitlab.cirad.fr/astre/arbocartoR">GitLab</XLink></li>
             <li>The web interface is available at <XLink href="https://arbocarto-r-app.sk8.inrae.fr/">arbocartoR web interface</XLink></li>
             <li>Visit the <XLink href="https://www.arbocarto.fr/en/arbocartor">arbocarto website</XLink> for more information</li>
         </ul>
