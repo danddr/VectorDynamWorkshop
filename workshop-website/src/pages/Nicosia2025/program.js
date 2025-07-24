@@ -42,7 +42,7 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>9:00</td>
-              <td>CDS and ERAland and similar environmental datacubes</td>
+              <td>An introduction to the Copernicus Data Store for disease modeling applications</td>
               <td>Cyril Caminade</td>
             </tr>
             <tr>
@@ -196,7 +196,10 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>9:45</td>
-              <td colSpan="3" className="center strong">Keynote address - Cyril Caminade</td>
+              <td colSpan="3" className="center">
+                <span className="strong">Keynote address by Cyril Caminade</span><br/>
+                <span className="emph">The risk posed by <i>Aedes aegypti</i> in Cyprus and the wider Mediteranean region</span>
+                </td>
             </tr>
             <tr>
               <td>10:15</td>
