@@ -295,7 +295,7 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>14:10</td>
-              <td>Comparison of two mechanistic models of <i>Aedes aegypti</i> population dynamics in 10 Argentinean localities between 2015-2024</td>
+              <td>Spatio-temporal validation of two mechanistic models of <i>Aedes aegypti</i> population dynamics in ten Argentine localities</td>
               <td>Veronica Andreo (online)</td>
             </tr>
             {/* Coffee Break */}
