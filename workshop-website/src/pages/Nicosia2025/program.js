@@ -258,7 +258,7 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>11:45</td>
-              <td>Egypt</td>
+              <td><i>Aedes aegypti</i> in Egypt, a newly re-emerged and established arboviral vector: History, current status and plan for risk management and control</td>
               <td>Emad Khater</td>
             </tr>
             <tr>
