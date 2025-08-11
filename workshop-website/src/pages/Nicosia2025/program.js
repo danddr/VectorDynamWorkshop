@@ -4,11 +4,22 @@ import "./program.css"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
+import XLink from "../../components/xlink"
 
 const ProgramPage = () => (
     <Layout workshop="Nicosia2025">
         <p>
-            <b>Please note that the program is alive and may evolve to adapt to our needs and wishes.</b>
+          <b>Please note that the program is alive and may evolve to adapt to our needs and wishes.</b>
+        </p>
+        <p>
+          The <b>Modelling Training Sessions 1-3</b> are aimed at participants with at least a working knowledge of R, 
+          focusing on practical skills such as formulating models, linking them to environmental data, 
+          and applying tips and techniques for real-world scenarios. For instance, 
+          a PhD student or postdoctoral researcher can explore how to use a model to predict vector dynamics or disease risk 
+          in their region, or adapt it to include new environmental factors or represent different species. 
+          To streamline setup, we have prepared a GitHub <XLink href="https://github.com/kerguler/vector-modelling-tutorials">repository</XLink> and 
+          published a corresponding Docker <XLink href="https://hub.docker.com/r/kerguler/vector-modelling-tutorials">image</XLink> on Docker Hub, 
+          which runs a JupyterLab server accessible externally via any web browser.
         </p>
       {/* Day 1 */}
       <section className="day-section">
