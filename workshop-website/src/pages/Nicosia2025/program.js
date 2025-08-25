@@ -237,7 +237,7 @@ const ProgramPage = () => (
               <td colSpan="3" className="center">
                 <span className="strong">Keynote address by Cyril Caminade</span><br/>
                 <MoreText>
-                  <span className="emph">The risk posed by <i>Aedes aegypti</i> in Cyprus and the wider Mediteranean region</span>
+                  <p><span className="emph">The risk posed by <i>Aedes aegypti</i> in Cyprus and the wider Mediteranean region</span></p>
                   <p className="summary">
                     <i>Aedes aegypti</i> is a competent vector of arboviruses such as Yellow fever and 
                     dengue. <i>Ae. aegypti</i> is currently present over the eastern coasts of the Black sea, north-eastern 
@@ -355,7 +355,30 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>13:50</td>
-              <td>The work of Joacim Rocklow's team</td>
+              <td>
+                <MoreText maxHeight={48}>
+                <p>From climate sensitivity to interventions: Work at Heidelberg Planetary Health Hub on <i>Aedes aegypti</i> and Dengue</p>
+                <p className="summary">
+                  The Heidelberg Planetary Health Hub (Hei-Planet) is an interdisciplinary research community addressing 
+                  the interconnected challenges of climate change, environmental degradation, and biodiversity loss through 
+                  a health-focused lens. A central research theme of Hei-Planet is the study of climate-sensitive infectious 
+                  diseases, with a particular focus on mosquito-borne illnesses.
+                </p>
+                <p className="summary">
+                  In this talk, I will provide a broad overview of our research on <i>Aedes aegypti</i> and Dengue. Our work 
+                  spans multiple approaches, including thermal biology trait-based models and the development of statistical 
+                  frameworks for robust quantification of uncertainty in trait performance curves. Building on these estimates, 
+                  I will present our latest findings from the Lancet Countdown on climate change and health, tracking changes 
+                  in global transmission suitability for Dengue.
+                </p>
+                <p className="summary">
+                  Furthermore, I will discuss data-driven analyses of the effect of weather and large-scale public health 
+                  interventions on <i>Aedes</i> mosquitoes and Dengue in Sri Lanka. In addition, I will present work on the use of climate 
+                  teleconnections for early-warning predictions of Dengue outbreaks and ongoing efforts to advance novel modeling 
+                  techniques that integrate mechanistic models with Neural Network components.
+                </p>
+                </MoreText>
+              </td>
               <td>Julian Heidecke</td>
             </tr>
             <tr>

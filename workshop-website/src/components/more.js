@@ -25,12 +25,13 @@ const MoreText = ({ children, maxHeight = 24 }) => {
         {children}
       </div>
       {overflowing && (
-        <a
+        <button
+          type="button"
           onClick={() => setExpanded(!expanded)}
           className="more-text"
         >
-          {expanded ? " [less]" : " [more]"}
-        </a>
+          {expanded ? "[less]" : "[more]"}
+        </button>
       )}
     </>
   );
