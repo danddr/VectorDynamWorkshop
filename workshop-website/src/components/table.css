@@ -68,3 +68,7 @@ table.plenary {
     padding-top: 8px;
     background: #ffffff;
 }
+
+.summary {
+    color: gray;
+}

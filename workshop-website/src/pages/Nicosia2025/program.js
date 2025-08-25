@@ -5,6 +5,7 @@ import "./program.css"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import XLink from "../../components/xlink"
+import MoreText from "../../components/more"
 
 const ProgramPage = () => (
     <Layout workshop="Nicosia2025">
@@ -53,7 +54,14 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>9:00</td>
-              <td>An introduction to the Copernicus Data Store for disease modeling applications</td>
+              <td>
+                <MoreText maxHeight={48}>
+                  <p>An introduction to the Copernicus Data Store for disease modeling applications</p>
+                  <p className="summary">
+                    This lecture will provide an overview of environmental datasets available on the Copernicus data Store and other tools for disease modeling applications. Practical information will be provided about finding and downloading datasets using the related API; and manipulating these environmental datacubes. Other user friendly climate data tools, such as the WMO-KNMI climate explorer and the IPCC Atlas will also be presented.
+                  </p>
+                </MoreText>
+              </td>
               <td>Cyril Caminade</td>
             </tr>
             <tr>
@@ -81,12 +89,31 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>11:30</td>
-              <td>Deterministic and ODE Models (ArboCarto)</td>
+              <td>arbocartoR package and App: deterministic ODE model for <i>Aedes</i> dynamics and control</td>
               <td>Pachka Hammami</td>
             </tr>
             <tr>
               <td>12:30</td>
-              <td>Physics-Informed Neural Networks and ODEs in vector population dynamics modelling</td>
+              <td>
+                <MoreText maxHeight={48}>
+                  <p>Physics-Informed Neural Networks and ODEs in vector population dynamics modelling</p>
+                  <p className="summary">
+                    Mechanistic dynamic models based on ordinary differential equations (ODEs) depend on accurately 
+                    parameterised, species-specific development and survival rates to generate reliable 
+                    predictions. Physic-Informed Neural Networks (PINNs) address this by embedding ODE constraints 
+                    directly into a neural framework trained on observational data, supporting both forward simulation 
+                    and inverse parameter recovery. We employ PINNs to refine biological parameterisation in 
+                    vector population dynamics models and directly compare their performance against traditional 
+                    ODE-based approaches. Our results demonstrate that PINN-driven inverse modelling can in 
+                    specific scenarios outperform classical methods in parameter accuracy and predictive 
+                    skill. To unpack the contributions of network design, we perform controlled ablation studies, 
+                    varying one architectural element at a time while holding all else constant, and assess each 
+                    modification's effect on overall performance. Hybrid approaches that fuse mechanistic principles 
+                    with data-driven methods can harness observational datasets to recover hard-to-measure parameters 
+                    without sacrificing the physical fidelity of the governing biometeorological processes.
+                  </p>
+                </MoreText>
+              </td>
               <td>Mina Petrić</td>
             </tr>
             {/* Lunch */}
@@ -209,7 +236,25 @@ const ProgramPage = () => (
               <td>9:45</td>
               <td colSpan="3" className="center">
                 <span className="strong">Keynote address by Cyril Caminade</span><br/>
-                <span className="emph">The risk posed by <i>Aedes aegypti</i> in Cyprus and the wider Mediteranean region</span>
+                <MoreText>
+                  <span className="emph">The risk posed by <i>Aedes aegypti</i> in Cyprus and the wider Mediteranean region</span>
+                  <p className="summary">
+                    <i>Aedes aegypti</i> is a competent vector of arboviruses such as Yellow fever and 
+                    dengue. <i>Ae. aegypti</i> is currently present over the eastern coasts of the Black sea, north-eastern 
+                    Turkey and it has recently been found in the vicinity of Larnaca airport in Cyprus. This species poses a 
+                    significant public health threat to Cyprus and the wider Mediterranean region. We adapted the 
+                    VECTRI model, originally developed for malaria, to simulate the dynamics of <i>Ae. aegypti</i> over Europe 
+                    and Cyprus using high resolution gridded climate data. We also used a basic reproduction number (R0) model 
+                    to estimate the potential for arbovirus transmission across the Mediterranean region. The vector model 
+                    revealed that Larnaca, Limassol, Nicosia, Paphos, and Ayia Napa possess suitable climates 
+                    for <i>Aedes aegypti</i> to establish itself. In addition, the R0 model, informed by observed climate 
+                    data, aligns with historical 18th-20th-century dengue and yellow fever hotspots in the Mediterranean 
+                    region, projecting high R0 values for Cyprus, Greece, Crete, Turkey, southern Italy, and the southern 
+                    and eastern coasts of Spain. To prevent the re-establishment of <i>Aedes aegypti</i> on the European 
+                    continent, we strongly advise stringent mosquito surveillance at maritime and air entry points in 
+                    Greece and rapid elimination measures in Cyprus.
+                  </p>
+                </MoreText>
                 </td>
             </tr>
             <tr>
@@ -258,7 +303,16 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>11:45</td>
-              <td><i>Aedes aegypti</i> in Egypt, a newly re-emerged and established arboviral vector: History, current status and plan for risk management and control</td>
+              <td>
+                <MoreText maxHeight={72}>
+                <p><i>Aedes aegypti</i> in Egypt, a newly re-emerged and established arboviral vector: History, current status and plan for risk management and control</p>
+                <p className="summary">
+                  The presentation will summarize the history of <i>Aedes aegypti</i> and dengue outbreaks in Egypt, elimination 
+                  as a by-product of malaria control campaigns, recent re-emergence and dengue outbreaks since 2014, geographic 
+                  expansion and ecology, and the needs for surveillance and modelling the risk for containment and control.
+                </p>
+                </MoreText>
+              </td>
               <td>Emad Khater</td>
             </tr>
             <tr>
@@ -306,7 +360,29 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>14:10</td>
-              <td>Spatio-temporal validation of two mechanistic models of <i>Aedes aegypti</i> population dynamics in ten Argentine localities</td>
+              <td>
+                <MoreText maxHeight={48}>
+                <p>Spatio-temporal validation of two mechanistic models of <i>Aedes aegypti</i> population dynamics in ten Argentine localities</p>
+                <p className="summary">
+                  Mathematical modeling of <i>Aedes aegypti</i> population dynamics provides information for vector surveillance 
+                  and control. We compared the predictive performance of two mechanistic models &mdash; Aguirre et al. (deterministic) and 
+                  DynamAedes (stochastic) &mdash; against ovitrap data from 10 Argentine localities spanning a wide climatic gradient, 
+                  between 2015 and 2024. Models' weekly predictions were standardized and compared with field observations, 
+                  evaluating three aspects: (1) spatio-temporal performance, (2) peak detection, and (3) seasonal 
+                  pattern (onset, end, and duration). DynamAedes resulted in extinction events in the three southernmost 
+                  localities, while Aguirre et al.'s model showed more stable week-to-week behavior. Prediction fit varied 
+                  across localities, with the best performance in northern localities like Tartagal (warm and humid) and 
+                  Añatuya (warm and dry). In terms of peak detection, DynamAedes had higher sensitivity (43.5% vs. 27.2%, 
+                  p&lt;0.001), although both models showed F1-scores below 0.5 across all localities. Regarding the seasonal 
+                  pattern, Aguirre et al.'s model reproduced the observed duration, while DynamAedes tended to anticipate 
+                  the start and prolong the duration of the season. Results show that both models reproduced abundance patterns 
+                  with varying accuracy, each with strengths and limitations depending on the evaluation criteria. This 
+                  comprehensive comparison, covering nearly ten years of data across a broad geographic and climatic range, 
+                  highlights the importance of thorough validations under diverse conditions to ensure more robust applications 
+                  and a deeper understanding of model performance in vector surveillance and early warning contexts.
+                </p>
+                </MoreText>
+              </td>
               <td>Veronica Andreo (online)</td>
             </tr>
             {/* Coffee Break */}
@@ -321,12 +397,49 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>15:05</td>
-              <td>UKEHC's model of <i>Aedes aegypti</i> (delayed differential equations)</td>
+              <td>
+                <MoreText>
+                  <p>A stage-structured DDE model for <i>Aedes aegypti</i> and dengue</p>
+                  <p className="summary">
+                    In the last 50 years there has been a rapid expansion in the range 
+                    in <i>Aedes aegypti</i>, increasing the risk of Dengue fever globally. 
+                    To accurately predict the start date of dengue outbreaks at these 
+                    range edges, a full life-cycle model of <i>Ae. aegypti</i> that 
+                    incorporates the environmentally-dependent development times, mortality 
+                    rates and fecundity rates is needed. Here, we use a fully tractable 
+                    system of delay differential equations to model <i>Ae. aegypti</i> that 
+                    allows for developmental plasticity between stages coupled with a 
+                    compartmental SEIR model for dengue fever. We demonstrate how this 
+                    approach can accurately predict the seasonality in abundance of each 
+                    developmental stage of <i>Ae. aegypti</i> across sub-tropical climates in 
+                    the Americas, without the need for backfitting, and present results 
+                    for the prediction of dengue fever outbreaks.
+                  </p>
+                </MoreText>
+              </td>
               <td>Benedict Fellows</td>
             </tr>
             <tr>
               <td>15:25</td>
-              <td>PesTwin, the biology-informed Digital-Twin transforming Integrated Pest Management</td>
+              <td>
+                <MoreText maxHeight={48}>
+                <p>PesTwin, the biology-informed Digital-Twin transforming Integrated Pest Management</p>
+                <p className="summary">
+                  Reducing the damage caused by invasive insect species is a crucial lever both in agriculture, 
+                  to improve food safety, and in public health, to combat vector-borne diseases. In support of these challenges, 
+                  and in line with the principles of precision agriculture and Integrated Pest Management (IPM), 
+                  we present PesTwin, an innovative simulation framework aiming to become the digital twin of a pest invasion. 
+                  Through a flexible rule-based approach of the Agent Based Modelling and Simulation (ABMS) paradigm, 
+                  the framework supports the fine-tuned modelling of the main ecological interactions of the pest with its host 
+                  and the environment. By integrating GIS data, such as historical temperature time-series, PesTwin allows 
+                  for forecasting the insects in realistic scenarios, both in its spatial and time dimensions. Further, 
+                  with a module devoted to genetic inheritance, it enables the simulation of evolutionary dynamics, 
+                  with an explicit focus on innovative genetic control techniques. PesTwin simulator lays at the intersection 
+                  of ecology, computer science and applied mathematics, paving the way towards a more targeted and effective 
+                  pest management, through optimization and innovation of control strategies.
+                </p>
+                </MoreText>
+              </td>
               <td>Andrea De Antoni</td>
             </tr>
             {/* Coffee Break */}
@@ -400,7 +513,7 @@ const ProgramPage = () => (
                   <li>Plenary discussion
                     <ul>
                       <li>Summary of the previous group activity</li>
-                      <li>1 team leader for each group presents</li>
+                      <li>One team leader for each group presents</li>
                     </ul>
                   </li>
                   <li>A joint paper summarising the outcome of the conference and the model comparisons</li>

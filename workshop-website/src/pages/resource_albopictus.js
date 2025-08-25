@@ -60,13 +60,12 @@ and <XLink href="https://github.com/kerguler/PopJSON/">PopJSON package</XLink> f
 
 <h3>arbocartoR</h3>
     <p>This is a R package and companion web interface, designed to support vector control activities design at local scale. It is based on a multi-level model including two different components: the deterministic population dynamics of Aedes mosquitoes (Ae. albopictus and Ae. aegypti) in various environments and the stochastic dynamics of transmission of dengue, Zika and chikungunya viruses.</p>
-    <p>Useful resources:
-        <ul>
+    <p>Useful resources:</p>
+    <ul>
             <li>The source code is available on <XLink href="https://gitlab.cirad.fr/astre/arbocartoR">GitLab</XLink></li>
             <li>The web interface is available at <XLink href="https://arbocarto-r-app.sk8.inrae.fr/">arbocartoR web interface</XLink></li>
             <li>Visit the <XLink href="https://www.arbocarto.fr/en/arbocartor">arbocarto website</XLink> for more information</li>
-        </ul>
-    </p>
+    </ul>
 
     <h3>dynamAedes</h3>
     <p>
@@ -95,8 +94,8 @@ and <XLink href="https://github.com/kerguler/PopJSON/">PopJSON package</XLink> f
         <XLink href="https://www.tandfonline.com/doi/full/10.1080/20477724.2017.1292992">2017</XLink>,
         <XLink href="https://www.tandfonline.com/doi/full/10.1080/20477724.2020.1866375">2020</XLink>) and spatial occurrence data from <XLink href="https://elifesciences.org/articles/08347">Kraemer et al. 2015</XLink> and the Global Biodiversity Information Facility (GBIF). The model for the vector life cycle is coupled to a disease transmission model which currently lacks a description of dengue (DENV) or any other virus vectored by the Asian tiger mosquito.</p>
     
-    <p>Useful resources:
-        <ul>
+    <p>Useful resources:</p>
+    <ul>
             <li>The source code is available at <XLink href="https://gitlab.com/tompkins/vectri/-/tree/master?ref_type=heads">GitLab</XLink></li>
             <li>Original <XLink href="http://users.ictp.it/~tompkins/vectri/manual/">documentation</XLink> and installation</li>
             <li>Update: Breeding model and Hydrology (<XLink href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150626">Asare et al. 2016</XLink>, <XLink href="https://www.geospatialhealth.net/gh/article/view/390/358">Asare et al. 2016</XLink>)</li>
@@ -105,8 +104,7 @@ and <XLink href="https://github.com/kerguler/PopJSON/">PopJSON package</XLink> f
             <li>Update: Breeding model and <em>Aedes</em> parameterization (Zornoza et al. 2024)</li>
             <li>Install Aedes version: git clone https://gitlab.com/tompkins/vectri.git; git checkout tags/v1.11.3 </li>
             <li> Run example (<XLink href="https://osf.io/3gcfb/">OSF repository</XLink>)</li>
-        </ul>
-    </p>
+    </ul>
 
 
 

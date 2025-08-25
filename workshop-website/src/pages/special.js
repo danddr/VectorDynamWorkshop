@@ -24,7 +24,6 @@ the application of mathematical modelling and machine learning to better underst
 various aspects of vector distribution and dynamics, disease mechanisms and spread, and designing effective control strategies across diverse ecological and epidemiological contexts.
 We invite submissions related to, but not limited to, the following topics: 
 </p>
-<p>
 <ul>
 <li>Development and application of dynamical models (e.g., compartmental, stochastic, and agent-based models) to study V/VBD transmission.- Integration of environmental, behavioural, and genomic data into V/VBD models.</li>
 <li>Machine learning and artificial intelligence for predicting vector distribution and disease outbreaks. </li>
@@ -33,7 +32,6 @@ We invite submissions related to, but not limited to, the following topics:
 <li>Evaluation of control measures (e.g., vector management, vaccination, and treatment strategies) using dynamical models.</li>
 <li>Spatio-temporal analysis of V/VBD dynamics using advanced statistical or computational methods.</li>
 </ul>
-</p>
 
 <p>
 We encourage researchers from diverse fields, including epidemiology, ecology, mathematics, computer science, and public health, to contribute their work to this Special Issue. Authors with

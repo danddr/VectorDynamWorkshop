@@ -27,7 +27,7 @@ const ExercisePage = () => (
     </p>
     <p>
     <StaticImage
-              src="../../images/range_and_data.webp"
+              src="../../images/range_and_data_V2.webp"
               loading="eager"
               width={750}
               quality={100}
@@ -49,12 +49,12 @@ const ExercisePage = () => (
     </p>
     <p>
         We aim to produce the following outputs, in order of preference:
-        <ul>
+    </p>
+    <ul>
             <li>Daily number of adult <i>Aedes aegypti</i> (from a dynamical model)</li>
             <li>Daily number of eggs (newly laid or average/median from a dynamical model)</li>
             <li>Geospatial risk, suitability, or susceptibility index (from a correlative model)</li>
-        </ul>
-    </p>
+    </ul>
     <p>
         By the end of the Workshop, we will compile all datasets, models, and results into a dedicated online resource for the research community working on <i>Aedes aegypti</i> in the EMME region.
     </p>
