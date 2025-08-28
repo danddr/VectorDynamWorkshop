@@ -89,7 +89,13 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>11:30</td>
-              <td>arbocartoR package and App: deterministic ODE model for <i>Aedes</i> dynamics and control</td>
+              <td>
+                <MoreText maxHeight={48}>
+                  <p>arbocartoR package and app: deterministic ODE model for <i>Aedes</i> dynamics and control</p>
+                  <p className="summary">This course introduces arbocarto, a mechanistic model of <i>Aedes</i> mosquito population dynamics based on a deterministic system of ordinary differential equations (ODEs). The model is spatialized and life cycle-based. It was developed to support operational objectives in surveillance and vector control. Its outputs include spatial maps of relative mosquito densities and estimates of the basic reproduction number (R<sub>o</sub>) for arbovirus transmission. To make the model accessible to both research and operational communities, the arbocartoR R package and its companion Shiny app were developed within the H2020 MOOD project at Cirad. These tools allow users to simulate mosquito dynamics for <i>Aedes aegypti</i> and <i>Aedes albopictus</i>, evaluate the effects of vector control actions, and explore the transmission potential of dengue, Zika, and chikungunya across diverse environments.</p>
+                  <p className="summary">The course will first present the ODE-based model structure and its operational applications, then demonstrate the features of the Shiny app, and finally guide participants through simple simulations in R using arbocartoR. Participants will gain hands-on experience running both the app and R scripts, adapting the model, visualizing outputs, and interpreting results for decision support in vector surveillance and control.</p>
+                </MoreText>
+              </td>
               <td>Pachka Hammami</td>
             </tr>
             <tr>
