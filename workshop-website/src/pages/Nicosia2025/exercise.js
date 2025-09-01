@@ -16,7 +16,7 @@ const ExercisePage = () => (
         Eastern Mediterranean and Middle East.</b> In this hands-on Vector Modelling Workshop, we will bring together diverse modelling approaches to simulate, compare, and validate predictions of mosquito dynamics under shared environmental conditions. 
         Using common datasets and collaborative tools, we aim to produce open, climate-sensitive models and risk maps that can guide public health responses in the region.
     </p>
-    <h3>Modelling <i>Aedes aegypti</i> in the EMME region</h3>
+    <h3>The advance of <i>Aedes aegypti</i> in the EMME region</h3>
     <p>
         <i>Aedes aegypti</i> and <i>Aedes albopictus</i> have recently established in Cyprus, 
         posing a serious risk to public health on the island and across the 
@@ -35,6 +35,20 @@ const ExercisePage = () => (
               alt=""
             />
     </p>
+    <p>
+        To better understand the seasonal dynamics of <i>Aedes aegypti</i> in Cyprus, The Cyprus Institute is conducting an adult mosquito monitoring study in Larnaca, where the species is currently established. The study is carried out in collaboration with the Ministry of Health and supported by the <XLink href="https://emme-care.cyi.ac.cy/">EMME-CARE</XLink> and <XLink href="https://www.reabic.net/journals/mbi/2022/4/MBI_2022_Yetismis_etal.pdf">Mosquitoes Without Borders</XLink> projects. Each week, adult mosquitoes are collected from a small urban area using eight BG-Sentinel traps baited with BG-Lure and dry ice. Below, we present the initial results ahead of the Workshop to contribute to a better understanding of seasonal vector dynamics.
+    </p>
+    <p className="center">
+    <StaticImage
+              src="../../images/Surveillance_Cyprus.webp"
+              loading="eager"
+              width={600}
+              quality={100}
+              formats={["auto", "webp", "avif"]}
+              alt=""
+            />
+    </p>
+    <h3>Modelling presence and seasonal dynamics</h3>
     <p>
         In this Vector Modelling Workshop, we focus on developing <b>mechanistic population dynamics models for <i>Aedes aegypti</i></b>. Our goal is to estimate the <b>geospatial likelihood of establishment</b> and the <b>temporal dynamics of mosquito activity</b> so that we can better assess potential disease risk.
     </p>
