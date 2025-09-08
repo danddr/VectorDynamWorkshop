@@ -275,7 +275,24 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>10:45</td>
-              <td>Epidemiological data harmonisation: WHO experience</td>
+              <td>
+                <MoreText maxHeight={48}>
+                  <p>Epidemiological data harmonisation: Global Repository of Epidemiological Parameters</p>
+                  <p className="summary">
+                    The Global Repository of Epidemiological Parameters (grEPI) is a World Health Organization 
+                    initiative designed to accelerate and harmonise access to key epidemiological parameters to s
+                    upport modelling and analysis. This presentation will provide an overview of grEPI and the planned 
+                    inclusions for version 1, including current approaches to AI supported parameter extraction. 
+                    The proposed approach for incorporating vector-based parameters (with a 
+                    focus on <i>Aedes aegypti</i> literature) will be demonstrated for consideration by participants. 
+                    Developed through consultation with the global modelling community, grEPI aims to improve 
+                    contestability of model assumptions, support more timely forecasts, and enhance policy relevance 
+                    for ministries of health and research institutions. This presentation will highlight grEPI's 
+                    contribution to harmonising epidemiological parameters for vector-borne disease intelligence to 
+                    strengthen preparedness and response capacity.
+                  </p>
+                </MoreText>
+              </td>
               <td>Chloe Morgan Rice</td>
             </tr>
 
