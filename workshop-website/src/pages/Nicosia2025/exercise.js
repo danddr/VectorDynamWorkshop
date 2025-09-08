@@ -25,7 +25,7 @@ const ExercisePage = () => (
         chikungunya, yellow fever, and Zika, and we have already observed it in 
         several locations within the three countries shown in the map below.
     </p>
-    <p>
+    <p className="center">
     <StaticImage
               src="../../images/range_and_data_V3.webp"
               loading="eager"
