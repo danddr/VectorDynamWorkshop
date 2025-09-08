@@ -27,7 +27,7 @@ const ExercisePage = () => (
     </p>
     <p>
     <StaticImage
-              src="../../images/range_and_data_V2.webp"
+              src="../../images/range_and_data_V3.webp"
               loading="eager"
               width={750}
               quality={100}

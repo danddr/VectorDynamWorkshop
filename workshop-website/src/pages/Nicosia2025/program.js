@@ -321,13 +321,15 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>11:30</td>
-              <td>Türkiye</td>
+              <td>
+                <p><i>Aedes aegypti</i> in Türkiye, ancient remnant or new introduction, current status and management option</p>
+              </td>
               <td>Mustafa Akıner</td>
             </tr>
             <tr>
               <td>11:45</td>
               <td>
-                <MoreText maxHeight={72}>
+                <MoreText maxHeight={48}>
                 <p><i>Aedes aegypti</i> in Egypt, a newly re-emerged and established arboviral vector: History, current status and plan for risk management and control</p>
                 <p className="summary">
                   The presentation will summarize the history of <i>Aedes aegypti</i> and dengue outbreaks in Egypt, elimination 
@@ -340,7 +342,9 @@ const ProgramPage = () => (
             </tr>
             <tr>
               <td>12:00</td>
-              <td>Madeira</td>
+              <td>
+                  <p>Surveillance of <i>Aedes aegypti</i> in Madeira, Portugal: Insights for Climate-Driven Vector Modelling for Portugal</p>
+              </td>
               <td>Hugo Costa Osório (online)</td>
             </tr>
             {/* Lunch */}
