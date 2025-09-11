@@ -209,37 +209,23 @@ const ProgramPage = () => (
             </tr>
             {/* Summary Session */}
             <tr>
-              <td rowSpan="4">9:15 - 9:45</td>
+              <td rowSpan="2">9:15 - 9:45</td>
               <td colSpan="3" className="center strong">Summary of the previous workshop on <i>Aedes albopictus</i></td>
             </tr>
             <tr>
-              <td>Time</td>
-              <td className="center">Title</td>
-              <td>Speaker</td>
-            </tr>
-            <tr>
-              <td>9:15</td>
-              <td>Preliminary results on <i>Aedes albopictus</i> dynamics in Italy and beyond</td>
-              <td>Kamil Erguler</td>
-            </tr>
-            <tr>
-              <td>9:30</td>
-              <td>Modeling the risk posed by <i>Aedes</i> mosquitoes in Europe: Identifying research needs from public health stakeholders and field entomologists</td>
-              <td>Daniele Da Re</td>
+              <td colSpan="3">
+              <p className="summary">
+                This opening session of the Vector Modelling Workshop will introduce the concept of the workshop series,
+                summarize the discussions and outcomes of the previous meeting in Bologna, Italy (2024),
+                and present the emerging ensemble model on <i>Aedes albopictus</i>. In a relaxed setting,
+                we will exchange experiences, reflect on challenges, and explore possible directions for the future.
+              </p>
+              </td>
             </tr>
 
            {/* Modelling Aedes aegypti */}
             <tr>
-              <td rowSpan="6">9:45 - 11:00</td>
-              <td colSpan="3" className="center strong">Modelling <i>Aedes aegypti</i></td>
-            </tr>
-            <tr>
-              <td>Time</td>
-              <td className="center">Title</td>
-              <td>Speaker</td>
-            </tr>
-            <tr>
-              <td>9:45</td>
+              <td>9:45 - 10:15</td>
               <td colSpan="3" className="center">
                 <span className="strong">Keynote address by Cyril Caminade</span><br/>
                 <MoreText>
@@ -262,6 +248,18 @@ const ProgramPage = () => (
                   </p>
                 </MoreText>
                 </td>
+            </tr>
+            <tr>
+              <td rowSpan="5">10:15 - 11:00</td>
+              <td colSpan="3" className="center">
+                <span className="strong">Modelling <i>Aedes aegypti</i> - Training data session</span><br/>
+                <span className="emph">Data for calibrating an <i>Aedes aegypti</i> model</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Time</td>
+              <td className="center">Title</td>
+              <td>Speaker</td>
             </tr>
             <tr>
               <td>10:15</td>
@@ -305,8 +303,8 @@ const ProgramPage = () => (
             <tr>
               <td rowSpan="6">11:15 - 12:15</td>
               <td colSpan="3" className="center">
-                <span className="strong">Training data session</span><br/>
-                <span className="emph">Surveillance data (data on <i>Aedes aegypti</i> in the EMME region and beyond)</span>
+                <span className="strong">Modelling <i>Aedes aegypti</i> - Surveillance data session</span><br/>
+                <span className="emph">Surveillance data on <i>Aedes aegypti</i> in the EMME region and beyond</span>
               </td>
             </tr>
             <tr>
@@ -557,7 +555,21 @@ const ProgramPage = () => (
               <td className="center light">Coffee Break</td>
             </tr>
             <tr>
-              <td>11:00 - 12:45</td>
+              <td>11:00 - 11:15</td>
+              <td className="center">
+                <MoreText>
+                <p className="center strong">The Copernicus Health Hub - Jonilda Kusta</p>
+                <p className="summary">The Copernicus Health Hub is a comprehensive platform, created by the European Centre for Medium 
+                  Range Weather Forecasts (ECMWF) under the Copernicus Programme, to provide user-centred, targeted 
+                  information on environmental factors affecting citizens' physical, mental and social well-being. 
+                  It highlights cutting-edge products from Copernicus Services to assess and forecast real-world 
+                  environmental impacts on public health, encompassing the community feedback on health application 
+                  needs and showcasing user stories of successful implementation.</p>
+                </MoreText>
+              </td>
+            </tr>
+            <tr>
+              <td>11:15 - 12:45</td>
               <td>
                 <ul>
                   <li>Plenary discussion
