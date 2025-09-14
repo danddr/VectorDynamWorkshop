@@ -51,7 +51,7 @@ const img_CyI = (<StaticImage
 const img_EMME_CARE = (<StaticImage
     src="../images/EMME-CARE_logo-removebg-preview-0a34b913.webp"
     loading="eager"
-    width={175}
+    width={220}
     quality={100}
     formats={["auto", "webp", "avif"]}
     alt=""
@@ -70,7 +70,60 @@ const img_CIRAD = (<StaticImage
   />
 );
 
-const orgLinks_ws2025 = [];
+const img_FEM = (<StaticImage
+    src="../images/Fondazione-Edmund-Mach_header_logo.webp"
+    loading="eager"
+    width={175}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
+
+const img_IFTAMED = (<StaticImage
+    src="../images/logo_iftamed.webp"
+    loading="eager"
+    width={130}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
+
+const img_EU = (<StaticImage
+    src="../images/logo_EU.webp"
+    loading="eager"
+    width={110}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
+
+const img_VEClim = (<StaticImage
+    src="../images/VEClim-Logo-300px.webp"
+    loading="eager"
+    width={175}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
+
+const orgLinks_ws2025 = [
+  {
+      "url": "https://www.cyi.ac.cy/",
+      "image": img_CyI
+  },
+  {
+      "url": "https://fmach.it/",
+      "image": img_FEM
+  }
+];
 
 const funderLinks_ws2025 = [
     [
@@ -79,8 +132,8 @@ const funderLinks_ws2025 = [
             "image": img_Wellcome
         },
         {
-            "url": "https://www.cyi.ac.cy/",
-            "image": img_CyI
+            "url": "https://veclim.com",
+            "image": img_VEClim
         },
         {
             "url": "https://emme-care.cyi.ac.cy/",
@@ -89,6 +142,14 @@ const funderLinks_ws2025 = [
         {
             "url": "https://www.cirad.fr/en",
             "image": img_CIRAD
+        },
+        {
+            "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+            "image": img_IFTAMED
+        },
+        {
+            "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+            "image": img_EU
         }
     ]
 ];
@@ -150,6 +211,19 @@ const Footer = ({ workshop }) => {
             </div></div>
         </>);
 
+    const just_logos = (<>
+          <div className={"footer-logo"}>
+            <div className={"footer-logo-group"}>
+              {orgLinks.map((link, i) => (
+                <React.Fragment key={i}>
+                    <XLink href={link.url}>
+                        {link.image}
+                    </XLink>
+                </React.Fragment>
+              ))}
+            </div></div>
+        </>);
+
     const funded = (<>
         <h3>Funded by</h3>
             <div className={"footer-logo"}>
@@ -170,7 +244,7 @@ const Footer = ({ workshop }) => {
     const sections = {
         "main": [],
         "Bologna2024": (<>{organised}{funded}</>),
-        "Nicosia2025": (<>{funded}</>)
+        "Nicosia2025": (<>{just_logos}{funded}</>)
     }[workshop];
 
     return (
