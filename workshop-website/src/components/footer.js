@@ -211,19 +211,6 @@ const Footer = ({ workshop }) => {
             </div></div>
         </>);
 
-    const just_logos = (<>
-          <div className={"footer-logo"}>
-            <div className={"footer-logo-group"}>
-              {orgLinks.map((link, i) => (
-                <React.Fragment key={i}>
-                    <XLink href={link.url}>
-                        {link.image}
-                    </XLink>
-                </React.Fragment>
-              ))}
-            </div></div>
-        </>);
-
     const funded = (<>
         <h3>Funded by</h3>
             <div className={"footer-logo"}>
@@ -244,7 +231,7 @@ const Footer = ({ workshop }) => {
     const sections = {
         "main": [],
         "Bologna2024": (<>{organised}{funded}</>),
-        "Nicosia2025": (<>{just_logos}{funded}</>)
+        "Nicosia2025": (<>{organised}{funded}</>)
     }[workshop];
 
     return (
