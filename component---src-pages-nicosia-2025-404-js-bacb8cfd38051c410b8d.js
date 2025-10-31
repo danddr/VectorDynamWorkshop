@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[745],{3753:function(t,e,a){a.r(e),a.d(e,{Head:function(){return r}});var n=a(7294),s=a(5592),u=a(9357);const r=()=>n.createElement(u.Z,{title:"404: Not Found"});e.default=()=>n.createElement(s.Z,{workshop:"Nicosia2025"},n.createElement("h1",null,"404: Not Found"),n.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}]);
-//# sourceMappingURL=component---src-pages-nicosia-2025-404-js-bacb8cfd38051c410b8d.js.map
