@@ -27,6 +27,7 @@ const mainPageLinks_ws2025 = [
   { text: "Program", url: "/Nicosia2025/program" },
   { text: "Directions", url: "/Nicosia2025/directions" },
   { text: "Exercise", url: "/Nicosia2025/exercise" },
+  { text: "Tutorials", url: "/Nicosia2025/tutorials" },
   { text: "Main", url: "/" }
 ]
 
