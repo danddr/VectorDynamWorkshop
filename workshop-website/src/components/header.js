@@ -81,7 +81,16 @@ const Header = ({ workshop, siteTitle }) => {
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Climate-Sensitive Vector Dynamics <br/> <b>Modelling Workshop</b>
+         {workshop === "Trento2026" ? (
+    <>
+       Two decades of <i>Aedes koreicus</i> in Europe:<br />
+      <b>Bridging Knowledge Gaps in Ecology and Vector Role</b>
+    </>
+  ) : (
+    <>
+      Climate-Sensitive Vector Dynamics <br/> <b>Modelling Workshop</b>
+    </>
+  )}
       </h1>
       {ws_date}
       <p className={styles.intro}>

@@ -148,7 +148,16 @@ const img_UniCamerino = (<StaticImage
   />
 );
 
-
+const img_PNRR = (<StaticImage
+    src="../images/pnrr.webp"
+    loading="eager"
+    width={475}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
 const orgLinks_ws2026 = [
   {
       "url": "https://www.muse.it/",
@@ -173,6 +182,10 @@ const funderLinks_ws2026 = [
         {
             "url": "https://dbb.dip.unipv.it/it",
             "image": img_UniPavia
+        },
+         {
+            //"url": "https://dbb.dip.unipv.it/it",
+            "image": img_PNRR
         },
         {
             "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
