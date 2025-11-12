@@ -6,11 +6,16 @@ import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
 const links = [
+    {
+    text: "Trento 2026",
+    url: "/Trento2026",
+    description:
+      <>A one-day workshop, to be held in Trento, Italy, will focus on the less studies species <i>Aedes koreicus</i>.</>  },
   {
     text: "Nicosia 2025",
     url: "/Nicosia2025",
     description:
-      <>The second workshop, to be held in Nicosia, Cyprus, will focus on <i>Aedes aegypti</i> and include a pre-workshop training session.</>  },
+      <>The second workshop, helded in Nicosia, Cyprus, focused on <i>Aedes aegypti</i> and include a pre-workshop training session.</>  },
   {
     text: "Bologna 2024",
     url: "/Bologna2024",

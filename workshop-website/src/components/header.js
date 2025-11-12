@@ -8,8 +8,9 @@ const mainPageLinks = [
   { text: "Home", url: "/" },
   { text: "Who are we?", url: "/who" },
   { text: "Special Issue", url: "/special" },
-  { text: "Data & Models", url: "/resources" },
-  { text: "Workshops", url: "/workshops" }
+  { text: "Resources", url: "/resources" },
+  { text: "Workshops", url: "/workshops" }, 
+  { text: "Contact", url: "/contacts" }
 ]
 
 const mainPageLinks_ws2024 = [
@@ -28,27 +29,44 @@ const mainPageLinks_ws2025 = [
   { text: "Directions", url: "/Nicosia2025/directions" },
   { text: "Exercise", url: "/Nicosia2025/exercise" },
   { text: "Tutorials", url: "/Nicosia2025/tutorials" },
+  { text: "Presentations", url: "/Nicosia2025/presentations" },
   { text: "Main", url: "/" }
 ]
+
+const mainPageLinks_ws2026 = [
+  { text: "Home", url: "/Trento2026" },
+  { text: "Registration", url: "/Trento2026/registration" },
+  { text: "Program", url: "/Trento2026/program" },
+  { text: "Directions", url: "/Trento2026/directions" },
+  { text: "Main", url: "/" }
+]
+
 
 const Header = ({ workshop, siteTitle }) => {
   const ws_date = {
     "main": (<></>),
     "Bologna2024": (
-        <div className={"ws-date"}>
-          September 19-20, 2024 - Bologna, Italy
-        </div>
-      ),
+      <div className={"ws-date"}>
+        September 19–20, 2024 – Bologna, Italy
+      </div>
+    ),
     "Nicosia2025": (
-        <div className={"ws-date"}>
-          September 17-19, 2025 - Nicosia, Cyprus
-        </div>
-      )
+      <div className={"ws-date"}>
+        September 17–19, 2025 – Nicosia, Cyprus
+      </div>
+    ),
+    "Trento2026": ( 
+      <div className={"ws-date"}>
+        February 10, 2026 – Trento, Italy
+      </div>
+    ),
   }[workshop];
+
   const pageLinks = {
     "main": mainPageLinks,
     "Bologna2024": mainPageLinks_ws2024,
-    "Nicosia2025": mainPageLinks_ws2025
+    "Nicosia2025": mainPageLinks_ws2025,
+    "Trento2026": mainPageLinks_ws2026, 
   }[workshop];
   return (
   <>

@@ -114,6 +114,78 @@ const img_VEClim = (<StaticImage
   />
 );
 
+
+const img_MUSE = (<StaticImage
+    src="../images/LogoMUSETrento.webp"
+    loading="eager"
+    width={175}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
+
+const img_UniPavia = (<StaticImage
+    src="../images/logo-UNIPV.webp"
+    loading="eager"
+    width={175}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
+
+const img_UniCamerino = (<StaticImage
+    src="../images/University_of_Camerino.webp"
+    loading="eager"
+    width={100}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
+
+
+const orgLinks_ws2026 = [
+  {
+      "url": "https://www.muse.it/",
+      "image": img_MUSE
+  },
+    {
+      "url": "https://dbb.dip.unipv.it/it",
+      "image": img_UniPavia
+  },
+    {
+      "url": "https://www.unicam.it/en",
+      "image": img_UniCamerino
+  },
+  {
+      "url": "https://fmach.it/",
+      "image": img_FEM
+  }
+];
+
+const funderLinks_ws2026 = [
+    [
+        {
+            "url": "https://dbb.dip.unipv.it/it",
+            "image": img_UniPavia
+        },
+        {
+            "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+            "image": img_IFTAMED
+        },
+        {
+            "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+            "image": img_EU
+        }
+    ]
+];
+
+
 const orgLinks_ws2025 = [
   {
       "url": "https://www.cyi.ac.cy/",
@@ -188,13 +260,15 @@ const Footer = ({ workshop }) => {
     const orgLinks = {
         "main": [],
         "Bologna2024": orgLinks_ws2024,
-        "Nicosia2025": orgLinks_ws2025
+        "Nicosia2025": orgLinks_ws2025, 
+        "Trento2026": orgLinks_ws2026
     }[workshop];
 
     const funderLinks = {
         "main": [],
         "Bologna2024": funderLinks_ws2024,
-        "Nicosia2025": funderLinks_ws2025
+        "Nicosia2025": funderLinks_ws2025, 
+        "Trento2026": funderLinks_ws2026
     }[workshop];
 
     const organised = (<>
@@ -231,7 +305,8 @@ const Footer = ({ workshop }) => {
     const sections = {
         "main": [],
         "Bologna2024": (<>{organised}{funded}</>),
-        "Nicosia2025": (<>{organised}{funded}</>)
+        "Nicosia2025": (<>{organised}{funded}</>),
+        "Trento2026": (<>{organised}{funded}</>) 
     }[workshop];
 
     return (

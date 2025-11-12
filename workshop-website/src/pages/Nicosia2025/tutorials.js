@@ -5,7 +5,7 @@ import Seo from "../../components/seo"
 
 import XLink from "../../components/xlink"
 
-import IframeTabs from "../../components/IFrameTabs"
+import IframeTabs from "../../components/IframeTabs"
 
 const TutorialsPage = () => {
   const tutorialTabs = [
