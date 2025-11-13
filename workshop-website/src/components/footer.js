@@ -273,15 +273,15 @@ const Footer = ({ workshop }) => {
     const orgLinks = {
         "main": [],
         "Bologna2024": orgLinks_ws2024,
-        "Nicosia2025": orgLinks_ws2025, 
+        "Nicosia2025": orgLinks_ws2025,
         "Trento2026": orgLinks_ws2026
     }[workshop];
 
     const funderLinks = {
         "main": [],
         "Bologna2024": funderLinks_ws2024,
-        "Nicosia2025": funderLinks_ws2025, 
-        "Trento2026": funderLinks_ws2026
+        "Nicosia2025": funderLinks_ws2025,
+       "Trento2026": funderLinks_ws2026
     }[workshop];
 
     const organised = (<>
@@ -319,7 +319,12 @@ const Footer = ({ workshop }) => {
         "main": [],
         "Bologna2024": (<>{organised}{funded}</>),
         "Nicosia2025": (<>{organised}{funded}</>),
-        "Trento2026": (<>{organised}{funded}</>) 
+        // "Trento2026": (<>{organised}{funded}</>) 
+        // Temporarily hide logos for Trento 2026
+  "Trento2026": (<>
+    <h3>Organised by</h3>
+    <p>(Logos temporarily hidden)</p>
+  </>)
     }[workshop];
 
     return (
