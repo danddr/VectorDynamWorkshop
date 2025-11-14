@@ -116,7 +116,7 @@ const img_VEClim = (<StaticImage
 
 
 const img_MUSE = (<StaticImage
-    src="../images/LogoMUSETrento.webp"
+    src="../images/muse_logo.webp"
     loading="eager"
     width={175}
     quality={100}
@@ -128,6 +128,17 @@ const img_MUSE = (<StaticImage
 
 const img_UniPavia = (<StaticImage
     src="../images/logo-UNIPV.webp"
+    loading="eager"
+    width={175}
+    quality={100}
+    formats={["auto", "webp", "avif"]}
+    alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />
+);
+
+const img_UniPavia_Dept = (<StaticImage
+    src="../images/uniPV_bio_dep.webp"
     loading="eager"
     width={175}
     quality={100}
@@ -164,9 +175,13 @@ const orgLinks_ws2026 = [
       "image": img_MUSE
   },
     {
-      "url": "https://dbb.dip.unipv.it/it",
+      "url": "https://en.unipv.it/en",
       "image": img_UniPavia
   },
+{
+      "url": "https://dbb.dip.unipv.it/it",
+      "image": img_UniPavia_Dept
+  },  
     {
       "url": "https://www.unicam.it/en",
       "image": img_UniCamerino
@@ -319,12 +334,12 @@ const Footer = ({ workshop }) => {
         "main": [],
         "Bologna2024": (<>{organised}{funded}</>),
         "Nicosia2025": (<>{organised}{funded}</>),
-        // "Trento2026": (<>{organised}{funded}</>) 
+        "Trento2026": (<>{organised}{funded}</>) 
         // Temporarily hide logos for Trento 2026
-  "Trento2026": (<>
-    <h3>Organised by</h3>
-    <p>(Logos temporarily hidden)</p>
-  </>)
+  //"Trento2026": (<>
+  //  <h3>Organised by</h3>
+   // <p>(Logos temporarily hidden)</p>
+  //</>)
     }[workshop];
 
     return (
