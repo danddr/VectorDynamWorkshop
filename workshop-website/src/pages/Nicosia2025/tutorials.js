@@ -22,7 +22,7 @@ const TutorialsPage = () => {
     <Layout workshop="Nicosia2025">
       <h2>Tutorials</h2>
       <p>
-        The advanced modelling tutorials from the first day of the Workshop are now available at <XLink href="https://veclim.com/tutorials">VEClim's tutorial platform</XLink>. You can explore the static versions below, and if you prefer to run them interactively, simply visit the tutorial platform at <XLink href="https://veclim.com/tutorials">veclim.com/tutorials</XLink>.
+        The advanced modelling tutorials from the first day of the Workshop are now available interactively at <XLink href="https://veclim.com/tutorials">VEClim's tutorial platform</XLink>. You can explore the static versions below and at <XLink href="https://veclim.com/tutorials-viewer/localfile/CSVD/README.ipynb">VEClim's tutorial viewer</XLink>.
       </p>
       <IframeTabs tabs={tutorialTabs} />
     </Layout>
