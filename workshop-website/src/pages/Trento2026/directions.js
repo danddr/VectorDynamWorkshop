@@ -25,20 +25,16 @@ const DirectionsPage = () => (
     ></iframe>
 
     <h3>Accommodation</h3>
-    <p>
-      We recommend that you arrange your own accommodation while in Trento. 
-      The following hotels may offer discounted rates for Vector Modelling Workshop participants. 
-      Please contact the hotels directly to inquire about availability and booking conditions. 
-      All prices generally include bed and breakfast.
-    </p>
+   <p>
+  We recommend that you arrange your own accommodation while in Trento. 
+  The city offers a wide range of hotels, some located near the venue include:{" "}
+  <XLink href="https://www.nh-hotels.com/it/hotel/nh-trento">NH Trento</XLink>,{" "}
+  <XLink href="https://habitat-tn.it/home/">Habitat Trento</XLink>, and{" "}
+   <XLink href="https://www.hotelamerica.it/">Hotel America</XLink>.{" "}
+  Please contact the hotels directly to inquire about availability and booking conditions.
+</p>
 
-    <ol>
-      <li>
-        <h5>TBA (To Be Announced)</h5>
-        <p>Further information on partner hotels will be provided soon.</p>
-      </li>
-    </ol>
-
+   
     <h3>Getting to MUSE</h3>
     <p>
       The venue is a 10-minute walk from Trento city centre and about 15 minutes from the main train station. 
@@ -54,9 +50,14 @@ const DirectionsPage = () => (
     <h3>How to get here</h3>
     <h4>Airports</h4>
     <p>
-      The nearest major airports are:
+      The nearest airports are:
     </p>
     <ul>
+
+
+     <li>
+        <XLink href="https://www.bolzanoairport.it/en/">Bolzano Airport</XLink> (60 km)
+      </li>
       <li>
         <XLink href="https://www.aeroportoverona.it/">Verona Villafranca Airport</XLink> (90 km)
       </li>
