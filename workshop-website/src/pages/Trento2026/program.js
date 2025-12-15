@@ -92,8 +92,8 @@ const ProgramPage = () => (
           </tr>
           <tr>
             <td>11:50 – 12:05</td>
-            <td>To be announced</td>
-            <td>—</td>
+            <td>Surveillance Challenges Related to the Optical Recognition of Multiple Co-occurring Aedes Mosquito Species in Their Invasive Range</td>
+            <td>Eleonora Flacio</td>
           </tr>
           <tr>
             <td rowSpan="5">12:05 – 12:30</td>
