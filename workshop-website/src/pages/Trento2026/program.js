@@ -15,96 +15,120 @@ const ProgramPage = () => (
       </b>
     </p>
 
-    {/* Day 1 */}
     <section className="day-section">
       <h2>10 February 2026 — MUSE, Trento (Italy)</h2>
-      <h3>Morning Session</h3>
 
+      <h3>Morning Session</h3>
       <table>
         <thead>
           <tr>
             <th className="center">Time</th>
-            <th className="center">Activity</th>
+            <th className="center">Topic</th>
             <th className="center">Speaker</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>08:00 – 08:30</td>
+            <td>08:30 – 09:00</td>
             <td className="center">Registration</td>
             <td className="center">—</td>
           </tr>
+
           <tr>
-            <td>08:30 – 08:40</td>
-            <td className="center">Opening remarks</td>
-            <td className="center">Director, MUSE</td>
+            <td>09:00 – 09:10</td>
+            <td className="center">Institutional welcome</td>
+            <td className="center">MUSE and FEM Directors</td>
           </tr>
+
           <tr>
-            <td>08:40 – 09:00</td>
+            <td>09:10 – 09:30</td>
             <td>
               Alien <i>Aedes</i> species: from monitoring to dissemination with a participatory approach
             </td>
             <td>Valeria Lencioni</td>
           </tr>
-          <tr>
-            <td>09:00 – 09:30</td>
-            <td>
-              Plenary on the <i>Aedes koreicus</i> invasion and dispersal in Europe
-            </td>
-            <td>Kornelia Kuruncz</td>
-          </tr>
+
           <tr>
             <td>09:30 – 10:00</td>
             <td>
-              Mosquito biology: bionomics, thermal performance curves, comparison with <i>Ae. albopictus</i>, and recent findings
+              <i>Aedes koreicus</i> in Europe: invasion history, dispersal, and perspectives from ongoing research
+            </td>
+            <td>Kornelia Kuruncz</td>
+          </tr>
+
+          <tr>
+            <td>10:00 – 10:30</td>
+            <td>
+              Mosquito biology: bionomics, thermal performance curves, comparison with <i>Ae. albopictus</i>, and recent findings from Pavia, Camerino, and Trento
             </td>
             <td>Maria Vittoria Mancini</td>
           </tr>
+
           <tr>
-            <td>10:00 – 10:15</td>
+            <td>10:30 – 11:00</td>
             <td>
-              Virology: vector competence for dengue virus (DENV)
+              Virology: vector competence for DENV, CHIKV, ZIKV, and WNV
             </td>
             <td>Federica Gobbo</td>
           </tr>
-          <tr>
-            <td>10:15 – 10:30</td>
-            <td>To be announced</td>
-            <td>—</td>
-          </tr>
-          <tr>
-            <td>10:30 – 11:00</td>
-            <td colSpan="2" className="center light">☕ Coffee Break</td>
-          </tr>
+
           <tr>
             <td>11:00 – 11:30</td>
+            <td colSpan="2" className="center light">☕ Coffee break</td>
+          </tr>
+
+          <tr>
+            <td>11:30 – 11:55</td>
             <td>
-              Monitoring and surveillance of <i>Aedes koreicus</i>
+              Monitoring and surveillance of <i>Aedes koreicus</i>: Italy and selected international examples
             </td>
             <td>Fabrizio Montarsi</td>
           </tr>
+
           <tr>
-            <td>11:30 – 11:50</td>
+            <td>11:55 – 12:20</td>
             <td>
-              Modelling approaches: overview of correlative and mechanistic frameworks — what we know, what we can do, and what is missing
+              Optical recognition of the eggs of four Aedine mosquito species
             </td>
-            <td>Daniele Da Re, Giovanni Marini</td>
-          </tr>
-          <tr>
-            <td>11:50 – 12:05</td>
-            <td>Surveillance Challenges Related to the Optical Recognition of Multiple Co-occurring Aedes Mosquito Species in Their Invasive Range</td>
             <td>Eleonora Flacio</td>
           </tr>
+
           <tr>
-            <td rowSpan="5">12:05 – 12:30</td>
+            <td>12:20 – 12:45</td>
+            <td>
+              Modelling <i>Aedes koreicus</i>: overview of correlative and mechanistic approaches — what we know, what we can do, and what is missing
+            </td>
+            <td>Daniele Da Re &amp; Giovanni Marini</td>
+          </tr>
+
+          {/* TurboTalks block */}
+          <tr>
+            <td rowSpan="4">12:45 – 13:00</td>
             <td colSpan="2" className="center">
-              <span className="strong">TurboTalks (5 min each)</span><br/>
-              TT1 – TT4
+              <span className="strong">TurboTalks</span>
+              <br />
+              <span className="emph">Short updates and methods in <i>Ae. koreicus</i> research</span>
             </td>
           </tr>
           <tr>
-            <td>12:30 – 14:00</td>
-            <td colSpan="2" className="center light">🍴 Lunch & Poster Session</td>
+            <td>12:45 — Friend or foe? <i>Asaia</i> as a paratransgenic tool in <i>Aedes koreicus</i></td>
+            <td>Romina Bahrami</td>
+          </tr>
+          <tr>
+            <td>
+              12:50 — Detection of <i>Aedes koreicus</i> in Vienna Central Cemetery: overcoming misidentification through multiplex PCR
+            </td>
+            <td>Tanto Situmorang</td>
+          </tr>
+          <tr>
+            <td>12:55 — Revealing swarming behaviour in <i>Aedes koreicus</i> using 3D tracking</td>
+            <td>Gloria Iacomelli</td>
+          </tr>
+      
+
+          <tr>
+            <td>13:00 – 14:30</td>
+            <td colSpan="2" className="center light">🍴 Lunch &amp; poster session</td>
           </tr>
         </tbody>
       </table>
@@ -114,39 +138,39 @@ const ProgramPage = () => (
         <thead>
           <tr>
             <th className="center">Time</th>
-            <th className="center">Activity</th>
+            <th className="center">Topic</th>
             <th className="center">Speaker</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>14:00 – 15:15</td>
+            <td>14:30 – 15:45</td>
             <td>
-              <span className="strong">Group Discussion:</span> Research and surveillance priorities for <i>Aedes koreicus</i>
+              <span className="strong">Group discussion:</span> research and surveillance priorities for <i>Aedes koreicus</i>
             </td>
             <td>All participants</td>
           </tr>
+
           <tr>
-            <td>15:15 – 15:30</td>
-            <td colSpan="2" className="center light">☕ Coffee Break</td>
+            <td>15:45 – 16:00</td>
+            <td colSpan="2" className="center light">☕ Coffee break</td>
           </tr>
+
           <tr>
-            <td>15:30 – 16:15</td>
+            <td>16:00 – 16:30</td>
             <td>
               <span className="strong">Plenary feedback and synthesis</span>
             </td>
             <td>Session moderators</td>
           </tr>
+
           <tr>
-            <td>16:15 – 16:30</td>
-            <td>
-              Wrap-up and closing remarks
-            </td>
+            <td>16:30 – 17:00</td>
+            <td>Wrap-up and closing remarks</td>
             <td>Organising Committee</td>
           </tr>
         </tbody>
       </table>
-
     </section>
   </Layout>
 )
