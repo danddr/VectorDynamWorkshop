@@ -59,7 +59,7 @@ const ProgramPage = () => (
           <tr>
             <td>10:00 – 10:30</td>
             <td>
-              Mosquito biology: bionomics, thermal performance curves, comparison with <i>Ae. albopictus</i>, and recent findings from Pavia, Camerino, and Trento
+             Temperature as a central driver of <i>Aedes koreicus</i> biology, ecology and vector potential
             </td>
             <td>Maria Vittoria Mancini</td>
           </tr>
@@ -67,7 +67,7 @@ const ProgramPage = () => (
           <tr>
             <td>10:30 – 11:00</td>
             <td>
-              Virology: vector competence for DENV, CHIKV, ZIKV, and WNV
+             What do we know about <i>Aedes koreicus'</i> vector competence?
             </td>
             <td>Federica Gobbo</td>
           </tr>
