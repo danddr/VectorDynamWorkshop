@@ -53,7 +53,7 @@ const ProgramPage = () => (
             <td>
               <i>Aedes koreicus</i> in Europe: invasion history, dispersal, and perspectives from ongoing research
             </td>
-            <td>Kornelia Kuruncz</td>
+            <td>Kornélia Kurucz</td>
           </tr>
 
           <tr>
@@ -88,7 +88,7 @@ const ProgramPage = () => (
           <tr>
             <td>11:55 – 12:20</td>
             <td>
-              Optical recognition of the eggs of four Aedine mosquito species
+              Challenges related to the optical recognition of the eggs of four Aedine mosquito species
             </td>
             <td>Eleonora Flacio</td>
           </tr>
