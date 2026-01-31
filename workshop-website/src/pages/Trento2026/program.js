@@ -80,7 +80,7 @@ const ProgramPage = () => (
           <tr>
             <td>11:30 – 11:55</td>
             <td>
-              Monitoring and surveillance of <i>Aedes koreicus</i>: Italy and selected international examples
+              Monitoring and surveillance of Aedes koreicus <i>Aedes koreicus</i> spread
             </td>
             <td>Fabrizio Montarsi</td>
           </tr>
