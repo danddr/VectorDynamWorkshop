@@ -80,7 +80,7 @@ const ProgramPage = () => (
           <tr>
             <td>11:30 – 11:55</td>
             <td>
-              Monitoring and surveillance of Aedes koreicus <i>Aedes koreicus</i> spread
+              Monitoring and surveillance of <i>Aedes koreicus</i> spread
             </td>
             <td>Fabrizio Montarsi</td>
           </tr>
@@ -122,7 +122,7 @@ const ProgramPage = () => (
           </tr>
           <tr>
             <td>12:55 — Revealing swarming behaviour in <i>Aedes koreicus</i> using 3D tracking</td>
-            <td>Gloria Iacomelli</td>
+            <td>Roberta Spaccapelo</td>
           </tr>
       
 
