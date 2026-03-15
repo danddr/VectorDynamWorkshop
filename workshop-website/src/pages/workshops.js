@@ -6,11 +6,16 @@ import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
 const links = [
+  {
+      text: "Heidelberg 2026",
+    url: "/Heidelberg2026",
+    description:
+      <>The third workshop will be held in Heidelberg, Germany, focused on <i>Culex pipiens</i> and include a pre-workshop dissemination session on early warning systems.</>  },
     {
     text: "Trento 2026",
     url: "/Trento2026",
     description:
-      <>A one-day workshop, to be held in Trento, Italy, will focus on the less studies species <i>Aedes koreicus</i>.</>  },
+      <>A one-day workshop, helded in Trento, Italy, focused on the less studies species <i>Aedes koreicus</i>.</>  },
   {
     text: "Nicosia 2025",
     url: "/Nicosia2025",
