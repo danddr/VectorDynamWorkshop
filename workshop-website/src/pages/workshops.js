@@ -10,17 +10,17 @@ const links = [
       text: "Heidelberg 2026",
     url: "/Heidelberg2026",
     description:
-      <>The third workshop will be held in Heidelberg, Germany, focused on <i>Culex pipiens</i> and include a pre-workshop dissemination session on early warning systems.</>  },
+      <>The third workshop will be held in Heidelberg, Germany, focused on <i>Culex pipiens</i> and include a pre-workshop webinar on early warning systems.</>  },
     {
     text: "Trento 2026",
     url: "/Trento2026",
     description:
-      <>A one-day workshop, helded in Trento, Italy, focused on the less studies species <i>Aedes koreicus</i>.</>  },
+      <>A one-day workshop, held in Trento, Italy, focused on the less studied species <i>Aedes koreicus</i>.</>  },
   {
     text: "Nicosia 2025",
     url: "/Nicosia2025",
     description:
-      <>The second workshop, helded in Nicosia, Cyprus, focused on <i>Aedes aegypti</i> and include a pre-workshop training session.</>  },
+      <>The second workshop, held in Nicosia, Cyprus, focused on <i>Aedes aegypti</i> and include a pre-workshop training session.</>  },
   {
     text: "Bologna 2024",
     url: "/Bologna2024",

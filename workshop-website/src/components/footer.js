@@ -118,7 +118,14 @@ const img_IWR = (<StaticImage
 
 const img_UniHeidelberg = (<StaticImage
     src="../images/uni_heidelberg_logo.webp"
-    loading="eager" width={175} quality={100}
+    loading="eager" width={150} quality={100}
+    formats={["auto", "webp", "avif"]} alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />);
+
+const img_AviaGIS = (<StaticImage
+    src="../images/AviaGIS_logo.webp"
+    loading="eager" width={115} quality={100}
     formats={["auto", "webp", "avif"]} alt=""
     style={{ marginBottom: `var(--space-3)` }}
   />);
@@ -148,7 +155,9 @@ const orgLinks_ws2026 = [
 const orgLinks_heidelberg2026 = [
   { "url": "https://www.iwr.uni-heidelberg.de/", "image": img_IWR },
   { "url": "https://www.uni-heidelberg.de/en",   "image": img_UniHeidelberg },
-  { "url": "https://fmach.it/",                  "image": img_FEM }
+  { "url": "https://fmach.it/",                  "image": img_FEM },
+  { "url": "https://www.cyi.ac.cy/",             "image": img_CyI },
+  { "url": "https://www.avia-gis.com/",          "image": img_AviaGIS },
 ];
 
 // ── Funders ───────────────────────────────────────────────────────────────────
@@ -176,7 +185,8 @@ const funderLinks_ws2026 = [[
 
 // Add / replace funder logos here once confirmed
 const funderLinks_heidelberg2026 = [[
-  { "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",  "image": img_EU }
+  { "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",  "image": img_EU },
+  { "url": "https://wellcome.org/",                                 "image": img_Wellcome }
 ]];
 
 // ── Footer component ──────────────────────────────────────────────────────────

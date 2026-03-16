@@ -6,7 +6,7 @@ import XLink from "../../components/xlink"
 
 const IndexPage = () => (
   <Layout workshop="Heidelberg2026">
-    <h2>The Workshop</h2>
+    <h2>The workshop</h2>
     <p>
       <i>Culex pipiens</i> is one of the most widespread and epidemiologically
       significant mosquito species in the world, acting as a primary vector for

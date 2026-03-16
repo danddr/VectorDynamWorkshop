@@ -45,26 +45,60 @@ const mainPageLinks_heidelberg2026 = [
 ]
 
 const Header = ({ workshop, siteTitle }) => {
+  const ws_title = {
+    "main": (<></>),
+    "Bologna2024": (
+        <>
+          <h1>
+              Climate-Sensitive Vector Dynamics <br /> <b>Modelling Workshop</b>
+          </h1>
+        </>
+    ),
+    "Nicosia2025": (
+        <>
+          <h1>
+              Climate-Sensitive Vector Dynamics <br /> <b>Modelling Workshop</b>
+          </h1>
+        </>
+    ),
+    "Trento2026": (
+        <>
+          <h1>
+              Two decades of <i>Aedes koreicus</i> in Europe:<br />
+              <b>Bridging Knowledge Gaps in Ecology and Vector Role</b>
+          </h1>
+        </>
+    ),
+    "Heidelberg2026": (
+        <>
+          <h1>
+              3<sup>rd</sup> CSVDM Workshop<br/>Climate-Sensitive Vector Dynamics Modelling<br />
+              <b><i>Culex pipiens</i> in a Changing Climate</b>
+          </h1>
+        </>
+    ),
+  }[workshop];
+
   const ws_date = {
     "main": (<></>),
     "Bologna2024": (
       <div className={"ws-date"}>
-        September 19–20, 2024 – Bologna, Italy
+        September 19-20, 2024 - Bologna, Italy
       </div>
     ),
     "Nicosia2025": (
       <div className={"ws-date"}>
-        September 17–19, 2025 – Nicosia, Cyprus
+        September 17-19, 2025 - Nicosia, Cyprus
       </div>
     ),
     "Trento2026": (
       <div className={"ws-date"}>
-        February 10, 2026 – Trento, Italy
+        February 10, 2026 - Trento, Italy
       </div>
     ),
     "Heidelberg2026": (
       <div className={"ws-date"}>
-        November 24–26, 2026 – Heidelberg, Germany
+        November 24-26, 2026 - Heidelberg, Germany
       </div>
     ),
   }[workshop];
@@ -89,23 +123,7 @@ const Header = ({ workshop, siteTitle }) => {
           alt=""
           style={{ marginBottom: `var(--space-3)` }}
         />
-        <h1>
-          {workshop === "Trento2026" ? (
-            <>
-              Two decades of <i>Aedes koreicus</i> in Europe:<br />
-              <b>Bridging Knowledge Gaps in Ecology and Vector Role</b>
-            </>
-          ) : workshop === "Heidelberg2026" ? (
-            <>
-              3rd CSVDM Workshop:<br />
-              <b>Modelling <i>Culex pipiens</i> in a Changing Climate</b>
-            </>
-          ) : (
-            <>
-              Climate-Sensitive Vector Dynamics <br /> <b>Modelling Workshop</b>
-            </>
-          )}
-        </h1>
+        {ws_title}
         {ws_date}
         <p className={styles.intro}>
           {pageLinks.map((link, i) => (

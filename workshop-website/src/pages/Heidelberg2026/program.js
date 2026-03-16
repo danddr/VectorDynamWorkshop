@@ -64,7 +64,13 @@ const ProgramPage = () => (
           </tr>
 
           <tr>
-            <td>09:10 – 10:30</td>
+            <td>09:10 – 09:40</td>
+            <td className="center"><span className="strong">Keynote address</span></td>
+            <td className="center">TBD</td>
+          </tr>
+
+          <tr>
+            <td>09:40 – 11:00</td>
             <td>
               <span className="strong">Session 1: West Nile Virus — data</span>
               <br />
@@ -72,16 +78,16 @@ const ProgramPage = () => (
                 Available data for modelling the WNV enzootic cycle: entomological, epidemiological, biodiversity, and citizen science data
               </span>
             </td>
-            <td>TBD</td>
+            <td className="center">TBD</td>
           </tr>
 
           <tr>
-            <td>10:30 – 11:00</td>
+            <td>11:00 – 11:30</td>
             <td colSpan="2" className="center light">☕ Coffee break &amp; Poster session</td>
           </tr>
 
           <tr>
-            <td>11:00 – 12:30</td>
+            <td>11:30 – 13:00</td>
             <td>
               <span className="strong">Session 2: West Nile Virus — modelling</span>
               <br />
@@ -91,11 +97,11 @@ const ProgramPage = () => (
               <br />
               <span className="emph"><i>Incl. Turbo talks: 5-min poster previews by early-career researchers</i></span>
             </td>
-            <td>TBD</td>
+            <td className="center">TBD</td>
           </tr>
 
           <tr>
-            <td>12:30 – 14:00</td>
+            <td>13:00 – 14:00</td>
             <td colSpan="2" className="center light">🍴 Lunch &amp; Poster session</td>
           </tr>
         </tbody>
@@ -122,7 +128,7 @@ const ProgramPage = () => (
               <br />
               <span className="emph"><i>Incl. Turbo talks: 5-min poster previews by early-career researchers</i></span>
             </td>
-            <td>TBD</td>
+            <td className="center">TBD</td>
           </tr>
 
           <tr>
@@ -137,7 +143,7 @@ const ProgramPage = () => (
               <br />
               <span className="emph">Discussion of models under construction</span>
             </td>
-            <td>TBD</td>
+            <td className="center">TBD</td>
           </tr>
         </tbody>
       </table>
@@ -166,7 +172,7 @@ const ProgramPage = () => (
                 Stakeholder involvement, effective communication, and climate change attribution
               </span>
             </td>
-            <td>Session moderators</td>
+            <td className="center">Session moderators</td>
           </tr>
 
           <tr>
@@ -181,7 +187,7 @@ const ProgramPage = () => (
               <br />
               <span className="emph">TBD</span>
             </td>
-            <td>TBD</td>
+            <td className="center">TBD</td>
           </tr>
 
           <tr>
@@ -212,7 +218,7 @@ const ProgramPage = () => (
               <br />
               <span className="emph">Wrap-up and roadmap discussion</span>
             </td>
-            <td>TBD</td>
+            <td className="center">TBD</td>
           </tr>
         </tbody>
       </table>
@@ -241,7 +247,7 @@ const ProgramPage = () => (
                 Introduction to climate-sensitive vector-borne disease modelling, tools, and datasets
               </span>
             </td>
-            <td>TBD</td>
+            <td className="center">TBD</td>
           </tr>
 
           <tr>
@@ -256,7 +262,7 @@ const ProgramPage = () => (
               <br />
               <span className="emph">Hands-on training session</span>
             </td>
-            <td>TBD</td>
+            <td className="center">TBD</td>
           </tr>
         </tbody>
       </table>
