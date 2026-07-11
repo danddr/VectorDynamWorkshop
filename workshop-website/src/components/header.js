@@ -41,6 +41,7 @@ const mainPageLinks_heidelberg2026 = [
   { text: "Registration", url: "/Heidelberg2026/registration" },
   { text: "Program", url: "/Heidelberg2026/program" },
   { text: "Directions", url: "/Heidelberg2026/directions" },
+  { text: "Exercise", url: "/Heidelberg2026/exercise" },
   { text: "Main", url: "/" }
 ]
 
