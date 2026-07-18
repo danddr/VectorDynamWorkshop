@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Footer from "../../components/footer"
 import Seo from "../../components/seo"
-import XLink from "../../components/xlink"
+//import XLink from "../../components/xlink"
 
 const IndexPage = () => (
   <Layout workshop="Heidelberg2026">
@@ -46,7 +46,7 @@ const IndexPage = () => (
       Edmund Mach Foundation (Italy).
     </p>
 
-    <h4>Local Organisation Team:</h4>
+    <h4>Local Organisation Team (Heidelberg University):</h4>
     <ul>
       <li>Peter Fransson</li>
       <li>Stella Dafka</li>

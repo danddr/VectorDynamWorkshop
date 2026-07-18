@@ -2,18 +2,19 @@ import * as React from "react"
 import "./program.css"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
+import XLink from "../../components/xlink"
 
 const ProgramPage = () => (
   <Layout workshop="Heidelberg2026">
     <p>
       <b>
-        Please note that the programme is preliminary and may evolve to adapt to speakers' availability and session needs.
+        Please note that the programme, and so the presentations' title,  is preliminary and may evolve to adapt to speakers' availability and session needs.
       </b>
     </p>
 
     {/* DAY 0 */}
     <section className="day-section">
-      <h2>~18 November 2026 — Online (Pre-workshop Webinar)</h2>
+      <h2>~16 November 2026 — Online (Pre-workshop Webinar)</h2>
       <table>
         <thead>
           <tr>
@@ -23,15 +24,38 @@ const ProgramPage = () => (
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>TBA</td>
-            <td>
-              <span className="strong">Early warning systems and platforms for vector-borne diseases</span>
-              <br />
-              <span className="emph">A 90-minute webinar presenting operational tools and platforms for disease surveillance and early warning</span>
+
+          {/* Webinar header */}
+          <tr className="session-header">
+            <td colSpan="3">
+              <span className="session-title">Webinar: An overview of ready-to-use dashboards for VBD management and pandemic preparedness</span>
             </td>
-            <td>TBA</td>
           </tr>
+
+          <tr>
+            <td>12:00 – 12:10</td>
+            <td className="center">Welcome speech</td>
+            <td className="center">Organising Committee</td>
+          </tr>
+
+          <tr>
+            <td>12:10 – 13:00</td>
+            <td className="center">Dashboard overview</td>
+            <td className="center">
+              Kamil Erguler (VEClim)<br />
+              Cédric Marsboom (MOOD Platform)<br />
+              Stephanie Thomas (BayByeMos)<br />
+              Sergio Natal (CLIMOS)<br />
+              Rachel Lowe (EpiOutlook)
+            </td>
+          </tr>
+
+          <tr>
+            <td>13:00 – 13:30</td>
+            <td className="center"><span className="emph">Roundtable discussion + Q&A </span></td>
+            <td className="center">All participants</td>
+          </tr>
+
         </tbody>
       </table>
     </section>
@@ -69,11 +93,10 @@ const ProgramPage = () => (
             <td className="center">Wim Van Bortel</td>
           </tr>
 
-          {/* Session 1 header */}
+                  {/* Session 1 header */}
           <tr className="session-header">
             <td colSpan="3">
               <span className="session-title">Session 1: West Nile Virus — data</span>
-              <span className="session-subtitle"> — Panel discussion</span>
             </td>
           </tr>
 
@@ -84,7 +107,9 @@ const ProgramPage = () => (
               Cédric Marsboom<br />
               Julian Heiber<br />
               Alex Richter-Boix<br />
-              TBA
+              Reina Sikkema<br />
+              David Roiz<br />
+               
             </td>
           </tr>
 
@@ -129,6 +154,7 @@ const ProgramPage = () => (
             <td>
               <span className="strong">Turbo talks</span>
               <br />
+              <span className="emph"><i>3 early-career researchers, 5 min each — poster previews</i></span>
             </td>
             <td className="center">—</td>
           </tr>
@@ -161,14 +187,14 @@ const ProgramPage = () => (
 
           <tr>
             <td>14:00 – 14:20</td>
-            <td>TBA</td>
+            <td>Ensemble forecasting</td>
             <td className="center">Johannes Bracher</td>
           </tr>
 
           <tr>
             <td>14:20 – 14:40</td>
-            <td>TBA</td>
-            <td className="center">TBA</td>
+            <td>Joint modelling of USUV &amp; WNV</td>
+            <td className="center">Quirine Ten Bosch</td>
           </tr>
 
           <tr>
@@ -182,6 +208,7 @@ const ProgramPage = () => (
             <td>
               <span className="strong">Turbo talks</span>
               <br />
+              <span className="emph"><i>3 early-career researchers, 5 min each — poster previews</i></span>
             </td>
             <td className="center">—</td>
           </tr>
@@ -239,17 +266,16 @@ const ProgramPage = () => (
           <tr className="session-header">
             <td colSpan="3">
               <span className="session-title">Session 1: Discussion</span>
-              <span className="session-subtitle"> — Stakeholder involvement, effective communication, and climate change attribution</span>
+              <span className="session-subtitle"> — Stakeholder involvement and effective communication</span>
             </td>
           </tr>
 
           <tr>
             <td>09:00 – 10:30</td>
-            <td>TBA</td>
+            <td className="center"><span className="emph">Group discussion</span></td>
             <td className="center">
-              Angela Okune<br />
-              Joacim Rockloev <br />
-              TBA
+              Joacim Rocklöv<br />
+              Angela Okune
             </td>
           </tr>
 
@@ -264,19 +290,16 @@ const ProgramPage = () => (
               <span className="session-title">Session 2: Modelling challenge</span>
             </td>
           </tr>
-
           <tr>
             <td>11:00 – 12:30</td>
-            <td className="center"><span className="emph">TBA</span></td>
+            <td>Joint presentation and discussion of the <em>Culex pipiens</em> dynamics <XLink href="https://www.vectormodelling.com/Heidelberg2026/exercise/">modelling challenge</XLink></td>
             <td className="center">TBA</td>
           </tr>
-
           <tr>
             <td>12:30 – 14:00</td>
             <td colSpan="2" className="center light">🍴 Lunch &amp; Poster session</td>
           </tr>
-
-        </tbody>
+      </tbody>
       </table>
 
       <h3>Afternoon Session</h3>
@@ -293,31 +316,33 @@ const ProgramPage = () => (
           {/* Session 3 header */}
           <tr className="session-header">
             <td colSpan="3">
-              <span className="session-title">Session 3: Data, code, and training</span>
+              <span className="session-title">Session 3: Protocols for projections and prediction challenges</span>
             </td>
           </tr>
 
           <tr>
-            <td>14:00 – 15:00</td>
-            <td>TBA</td>
+            <td>14:00 – 15:30</td>
+            <td className="center"><span className="emph">Discussion: protocols for projections and prediction challenges</span></td>
             <td className="center">Stella Dafka &amp; Johannes Bracher</td>
           </tr>
 
           <tr>
-            <td>15:00 – 16:00</td>
-            <td>TBA</td>
-            <td className="center">Stella Dafka &amp; Johannes Bracher</td>
-          </tr>
-
-          <tr>
-            <td>16:00 – 17:00</td>
+            <td>15:30 – 16:00</td>
             <td className="center"><span className="emph">Wrap-up, roadmap, and next steps</span></td>
             <td className="center">All participants</td>
           </tr>
 
         </tbody>
       </table>
+  
+
     </section>
+
+    <p>
+      <b>The social dinner will be on the evening of 25 November 2026. More information to come.</b>
+    </p>
+
+
 
     {/* DAY 3 */}
     <section className="day-section">
@@ -337,34 +362,44 @@ const ProgramPage = () => (
           {/* Session 1 header */}
           <tr className="session-header">
             <td colSpan="3">
-              <span className="session-title">Session 1: Training</span>
-              <span className="session-subtitle"> — Introduction to climate-sensitive vector-borne disease modelling, tools, and datasets</span>
+              <span className="session-title">Session 1: Training — data and modelling tools</span>
             </td>
           </tr>
 
           <tr>
-            <td>09:00 – 10:30</td>
-            <td>TBA</td>
+            <td>08:30 – 09:30</td>
+            <td>Introduction to spatiotemporal machine learning — hands-on tutorials in R</td>
+            <td className="center">Daniele Da Re</td>
+          </tr>
+
+          <tr>
+            <td>09:30 – 10:30</td>
+            <td>Introduction to ODE modelling in R</td>
             <td className="center">TBA</td>
           </tr>
 
           <tr>
             <td>10:30 – 11:00</td>
-            <td colSpan="2" className="center light">☕ Coffee break</td>
+            <td colSpan="2" className="center light">☕ Coffee break &amp; Poster session</td>
           </tr>
 
           {/* Session 2 header */}
           <tr className="session-header">
             <td colSpan="3">
-            <span className="session-title">Session 2: Training</span>
-              <span className="session-subtitle"> — Introduction to climate-sensitive vector-borne disease modelling, tools, and datasets</span>
+              <span className="session-title">Session 2: Training — climate change attribution</span>
             </td>
           </tr>
 
           <tr>
-            <td>11:00 – 12:30</td>
-            <td>TBA</td>
-            <td className="center">TBA</td>
+            <td>11:00 – 12:00</td>
+            <td>Introduction to climate change attribution</td>
+            <td className="center">Stella Dafka</td>
+          </tr>
+
+          <tr>
+            <td>12:00 – 12:30</td>
+            <td className="center"><span className="emph">Wrap-up, roadmap, and next steps</span></td>
+            <td className="center">All participants</td>
           </tr>
 
         </tbody>
