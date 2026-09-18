@@ -43,7 +43,7 @@ const IndexPage = () => (
     <h2>Organisers</h2>
     <p>
       This workshop is jointly organised by the Heidelberg University (Germany), The Cyprus Institute (Cyprus), AVIA-GIS (Belgium), and the
-      Edmund Mach Foundation (Italy).
+      UCLouvain (Belgium).
     </p>
 
     <h4>Local Organisation Team (Heidelberg University):</h4>
@@ -66,7 +66,7 @@ const IndexPage = () => (
       </li>
       <li>Kamil Erguler — The Cyprus Institute (Cyprus)</li>
       <li>Cedric Marsboom — AVIA-GIS (Belgium)</li>
-      <li>Daniele Da Re — Edmund Mach Foundation (Italy)</li>
+      <li>Daniele Da Re — UCLouvain (Belgium)</li>
     </ul>
 
     <Footer workshop="Heidelberg2026" />

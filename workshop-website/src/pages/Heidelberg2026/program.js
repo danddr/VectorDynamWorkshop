@@ -46,7 +46,7 @@ const ProgramPage = () => (
               Cédric Marsboom (MOOD Platform)<br />
               Stephanie Thomas (BayByeMos)<br />
               Sergio Natal (CLIMOS)<br />
-              Rachel Lowe (EpiOutlook)
+              Adam Fisher (EpiOutlook)
             </td>
           </tr>
 
@@ -105,7 +105,7 @@ const ProgramPage = () => (
             <td><span className="emph">What data do we have available for modelling the WNV enzootic cycle?</span></td>
             <td className="center">
               Cédric Marsboom<br />
-              Julian Heiber<br />
+              Julian Heidecke<br />
               Alex Richter-Boix<br />
               Reina Sikkema<br />
               David Roiz<br />

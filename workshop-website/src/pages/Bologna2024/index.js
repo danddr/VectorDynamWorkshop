@@ -13,11 +13,11 @@ const IndexPage = () => (
 
     <h2>Organisers</h2>
     <p  style={{textAlign:"justify"}}>
-       Organised by the University of Trento, the Cyprus Institute, and the Emilia-Romagna region, this workshop aims to convene European modellers and stakeholders for an insightful dialogue on the technical details and future advancements in predictive models and modelling techniques for Climate-Sensitive Vectors, exemplified by the <i>Aedes albopictus</i> mosquito species.
+       Organised by the University of Trento, the Edmund Mach Foundation, the Cyprus Institute, and the Emilia-Romagna region, this workshop aims to convene European modellers and stakeholders for an insightful dialogue on the technical details and future advancements in predictive models and modelling techniques for Climate-Sensitive Vectors, exemplified by the <i>Aedes albopictus</i> mosquito species.
     </p>
     <p>
        <b>Scientific Committee</b>:<br/>
-        Daniele Da Re - University of Trento (Italy)<br/>
+        Daniele Da Re - University of Trento, Edmund Mach Foundation (Italy)<br/>
         Roberto Rosà - University of Trento (Italy)<br/>
         Giovanni Marini - Edmund Mach Foundation (Italy)<br/>
         Alessandro Albieri - Centro Agricoltura Ambiente (Italy)<br/>

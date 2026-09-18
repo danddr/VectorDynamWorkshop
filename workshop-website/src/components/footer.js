@@ -129,6 +129,13 @@ const img_AviaGIS = (<StaticImage
     formats={["auto", "webp", "avif"]} alt=""
     style={{ marginBottom: `var(--space-3)` }}
   />);
+
+const img_UCLouvain = (<StaticImage
+    src="../images/UCLouvain_Logo_Pos_RVB.webp"
+    loading="eager" width={150} quality={100}
+    formats={["auto", "webp", "avif"]} alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />);
 // ─────────────────────────────────────────────────────────────────────────────
 
 // ── Organisers ────────────────────────────────────────────────────────────────
@@ -136,7 +143,8 @@ const img_AviaGIS = (<StaticImage
 const orgLinks_ws2024 = [
   { "url": "https://www.centro3a.unitn.it/", "image": img_c3a },
   { "url": "https://www.cyi.ac.cy/",         "image": img_CyI },
-  { "url": "https://www.regione.emilia-romagna.it/", "image": img_ER }
+  { "url": "https://www.regione.emilia-romagna.it/", "image": img_ER },
+  {"url": "https://fmach.it/",      "image": img_FEM }
 ];
 
 const orgLinks_ws2025 = [
@@ -155,7 +163,7 @@ const orgLinks_ws2026 = [
 const orgLinks_heidelberg2026 = [
   { "url": "https://www.iwr.uni-heidelberg.de/", "image": img_IWR },
   { "url": "https://www.uni-heidelberg.de/en",   "image": img_UniHeidelberg },
-  { "url": "https://fmach.it/",                  "image": img_FEM },
+  { "url": "https://uclouvain.be/en",                  "image": img_UCLouvain },
   { "url": "https://www.cyi.ac.cy/",             "image": img_CyI },
   { "url": "https://www.avia-gis.com/",          "image": img_AviaGIS },
 ];
@@ -185,8 +193,8 @@ const funderLinks_ws2026 = [[
 
 // Add / replace funder logos here once confirmed
 const funderLinks_heidelberg2026 = [[
-  { "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",  "image": img_EU },
-  { "url": "https://wellcome.org/",                                 "image": img_Wellcome }
+  // { "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/", "image": img_EU },
+  { "url": "https://wellcome.org/", "image": img_Wellcome }
 ]];
 
 // ── Footer component ──────────────────────────────────────────────────────────
