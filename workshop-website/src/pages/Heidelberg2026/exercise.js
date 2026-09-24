@@ -95,6 +95,31 @@ const ExercisePage = () => (
         submitted either as a <b>NetCDF</b> or <b>GeoTIFF</b> file.
       </p>
 
+      <h3>Training data</h3>
+
+      <p>
+        Longo et al. have recently published a harmonised dataset of adult <i>Culex pipiens</i> mosquito 
+        abundance from 17 administrative regions across Italy, covering 2008-2022. A description of the dataset 
+        is available in this <XLink href="https://ecoevorxiv.org/repository/view/14804/">preprint</XLink>, and the 
+        complete dataset can be downloaded from <XLink href="https://zenodo.org/records/19494972">Zenodo</XLink>.
+      </p>
+
+      <p className="center">
+      <StaticImage
+              src="../../images/Heidelberg2026/Longo2026_preprint_Figure3.webp"
+              loading="eager"
+              width={750}
+              quality={100}
+              formats={["auto", "webp", "avif"]}
+              alt=""
+            />
+      </p>
+
+      <p>
+        We encourage participants to make use of this dataset, where appropriate, to develop and calibrate their 
+        models for the two Missions described above.
+      </p>
+
       <h3>Sharing models</h3>
 
       <p>
