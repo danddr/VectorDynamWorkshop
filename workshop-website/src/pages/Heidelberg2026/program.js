@@ -127,19 +127,19 @@ const ProgramPage = () => (
 
           <tr>
             <td>11:00 – 11:20</td>
-            <td>TBA</td>
+            <td>Estimating WNV force of infection through different data: avian biodiversity and human seroprevalence</td>
             <td className="center">Giovanni Marini</td>
           </tr>
 
           <tr>
             <td>11:20 – 11:40</td>
-            <td>TBA</td>
+            <td>A hybrid ML-PDE model for the spread of WNV</td>
             <td className="center">Pride Duvel</td>
           </tr>
 
           <tr>
             <td>11:40 – 12:00</td>
-            <td>TBA</td>
+            <td>Process-based modelling of Culex mosquito dynamics and West Nile virus control</td>
             <td className="center">Renke Lühken</td>
           </tr>
 
@@ -187,13 +187,13 @@ const ProgramPage = () => (
 
           <tr>
             <td>14:00 – 14:20</td>
-            <td>Ensemble forecasting</td>
+            <td>Probabilistic multi-model forecasting of infectious disease spread</td>
             <td className="center">Johannes Bracher</td>
           </tr>
 
           <tr>
             <td>14:20 – 14:40</td>
-            <td>Joint modelling of USUV &amp; WNV</td>
+            <td>On the emergence of Usutu and West-Nile Virus into the Netherlands - A synthesis from 5 PhD projects</td>
             <td className="center">Quirine Ten Bosch</td>
           </tr>
 
@@ -322,7 +322,7 @@ const ProgramPage = () => (
 
           <tr>
             <td>14:00 – 15:30</td>
-            <td className="center"><span className="emph">Discussion: protocols for projections and prediction challenges</span></td>
+            <td className="center"><span className="emph">Collaborative Hubs for Epidemic Forecasting</span></td>
             <td className="center">Stella Dafka &amp; Johannes Bracher</td>
           </tr>
 
