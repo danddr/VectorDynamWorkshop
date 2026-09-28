@@ -6,7 +6,7 @@ import * as styles from "../components/index.module.css"
 const mainPageLinks = [
   { text: "Home", url: "/" },
   { text: "Who are we?", url: "/who" },
-  { text: "Special Issue", url: "/special" },
+  { text: "Publications", url: "/publications" },
   { text: "Resources", url: "/resources" },
   { text: "Workshops", url: "/workshops" },
   { text: "Contact", url: "/contacts" }
@@ -34,6 +34,7 @@ const mainPageLinks_trento2026 = [
   { text: "Registration", url: "/Trento2026/registration" },
   { text: "Program", url: "/Trento2026/program" },
   { text: "Directions", url: "/Trento2026/directions" },
+  { text: "Presentations", url: "/Trento2026/presentations" },
   { text: "Main", url: "/" }
 ]
 const mainPageLinks_heidelberg2026 = [

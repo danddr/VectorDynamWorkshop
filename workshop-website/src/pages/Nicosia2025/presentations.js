@@ -3,6 +3,23 @@ import XLink from "../../components/xlink"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
+const base = "/assets/pdfs/Nicosia2025/"
+
+const talks = [
+  { file: "1_CyrilCaminade.pdf", label: "Cyril Caminade’s presentation" },
+  { file: "2_PaulHuxley.pdf", label: "Paul Huxley’s presentation" },
+  { file: "3_WIlliamWint.pdf", label: "William Wint’s presentation" },
+  { file: "4_ChloeMorganRice.pdf", label: "Chloe Morgan Rice’s presentation" },
+  { file: "5_MustafaAkiner.pdf", label: "Mustafa Akiner’s presentation" },
+  { file: "7_BenedictFellows.pdf", label: "Benedict Fellows’ presentation" },
+  { file: "8_AndreaDeAntoni.pdf", label: "Andrea De Antoni’s presentation" },
+  { file: "9_MartinLottoBatista.pdf", label: "Martin Lotto Batista’s presentation" },
+  { file: "10_JulianHeidecke.pdf", label: "Julian Heidecke’s presentation" },
+  { file: "11_VeronicaAndreo.pdf", label: "Veronica Andreo’s presentation" },
+  { file: "15_AvrielDiaz.pdf", label: "Avriel Diaz’s presentation" },
+  { file: "17_ModellingExercise.pdf", label: "The modelling exercise" },
+]
+
 const PresentationsPage = () => (
   <Layout workshop="Nicosia2025">
     <h2>Presentations</h2>
@@ -13,46 +30,13 @@ const PresentationsPage = () => (
     </p>
 
     <ul>
-      <li>
-        <XLink href="../../assets/Nicosia2025pdfs/1_CyrilCaminade.pdf" download>
-          Download Cyril Caminade’s presentation (PDF)
-        </XLink>
-      </li>
-      <li>
-        <XLink href="../../assets/Nicosia2025pdfs/2_PaulHuxley.pdf" download>
-          Download Paul Huxley’s presentation (PDF)
-        </XLink>
-      </li>
-      <li>
-        <XLink href="../../assets/Nicosia2025pdfs/3_WilliamWint.pdf" download>
-          Download William Wint’s presentation (PDF)
-        </XLink>
-      </li>
-      <li>
-        <XLink href="../../assets/Nicosia2025pdfs/4_ChloeMorganRice.pdf" download>
-          Download Chloe Morgan Rice’s presentation (PDF)
-        </XLink>
-      </li>
-      <li>
-        <XLink href="../../assets/Nicosia2025pdfs/6_MustafaAkiner.pdf" download>
-          Download Mustafa Akiner’s presentation (PDF)
-        </XLink>
-      </li>
-      <li>
-        <XLink href="../../assets/Nicosia2025pdfs/13_BenedictFellows.pdf" download>
-          Download Benedict Fellows’ presentation (PDF)
-        </XLink>
-      </li>
-      <li>
-        <XLink href="../../assets/Nicosia2025pdfs/14_AndreaDeAntoni.pdf" download>
-          Download Andrea De Antoni’s presentation (PDF)
-        </XLink>
-      </li>
-      <li>
-        <XLink href="../../assets/Nicosia2025pdfs/16_JonildaKushta.pdf" download>
-          Download Jonilda Kushta’s presentation (PDF)
-        </XLink>
-      </li>
+      {talks.map(t => (
+        <li key={t.file}>
+          <XLink href={base + t.file} download>
+            Download {t.label} (PDF)
+          </XLink>
+        </li>
+      ))}
     </ul>
   </Layout>
 )
