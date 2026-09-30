@@ -11,6 +11,8 @@ const IndexPage = () => (
        Climate-sensitive vectors are increasingly driving the spread of vector-borne diseases, posing significant public health challenges worldwide. This workshop is dedicated to exploring the diverse modelling approaches used to forecast mosquito and virus transmission. We envision this gathering as a collaborative platform for open discussions, where participants can collectively assess the strengths and limitations of existing models, delve into the potential of ensemble modelling, and explore practical applications for predicting epidemic risks.
     </p>
 
+    <img src="/assets/photos/Bologna2024.jpg" alt="Group photo, Bologna 2024 workshop" />
+
     <h2>Organisers</h2>
     <p  style={{textAlign:"justify"}}>
        Organised by the University of Trento, the Edmund Mach Foundation, the Cyprus Institute, and the Emilia-Romagna region, this workshop aims to convene European modellers and stakeholders for an insightful dialogue on the technical details and future advancements in predictive models and modelling techniques for Climate-Sensitive Vectors, exemplified by the <i>Aedes albopictus</i> mosquito species.

@@ -16,6 +16,8 @@ const IndexPage = () => (
       The <strong>2<sup>nd</sup> Climate-Sensitive Vector Dynamics Modelling Workshop</strong> is dedicated to exploring innovative ideas and approaches to modelling the dynamics of <strong><i>Ae. aegypti</i></strong>, particularly given the present state of limited field and laboratory data availability on its environmental dependence. We envision this gathering as a collaborative platform for open discussions, where participants can collectively assess the strengths and limitations of their approaches, investigate the potential of ensemble modelling strategies, and explore practical applications for predicting epidemic risks.
     </p>
 
+    <img src="/assets/photos/Nicosia2025.jpg" alt="Group photo, Nicosia 2025 workshop" />
+
     <h2>Organisers</h2>
     <p>
       This Workshop is jointly organized by the Cyprus Institute (Cyprus) and the Edmund Mach Foundation (Italy). It will bring together mathematical modelers, epidemiologists, entomologists, and public health stakeholders to engage in meaningful dialogue on technical constraints and future advancements in predictive modelling of climate-sensitive <strong><i>Aedes aegypti</i></strong> population dynamics.

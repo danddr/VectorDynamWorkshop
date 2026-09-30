@@ -27,6 +27,8 @@ const IndexPage = () => (
   This focused meeting will serve as an open platform to exchange insights, foster new collaborations, and define a collective research agenda to improve our understanding of <i>Ae. koreicus</i> biology, ecology, and epidemiological relevance.
 </p>
 
+<img src="/assets/photos/Trento2026.jpg" alt="Group photo, Trento 2026 workshop" />
+
     <h2>Organisers</h2>
     <p>
       This Workshop is jointly organized by the MUSE - Museo delle Scienze (Italy), the University of Camerino (Italy), the University of Pavia (Italy), and the Edmund Mach Foundation (Italy). 
