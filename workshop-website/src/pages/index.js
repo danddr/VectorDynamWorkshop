@@ -1,18 +1,30 @@
 import * as React from "react"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout workshop="main">
+    <h2>Climate-Sensitive Vector Dynamics Modelling (CSVDM)</h2>
     <p>
-    Climate-sensitive vectors, such as mosquitoes, ticks, and sandflies, are playing an increasingly prominent role in driving the spread of vector-borne diseases, exacerbating public health challenges worldwide. Rising global temperatures, shifting precipitation patterns, and changing ecosystems are creating new opportunities for these vectors to thrive, adapt, and invade previously unaffected regions. The growing burden of vector populations and disease transmission underscores the urgent need for robust forecasting tools to anticipate and mitigate epidemic risks. 
-    </p>
-    <p>   
-    Together with a group of friends and colleagues, we initiated a workshop series dedicated to exploring a diverse range of innovative modelling approaches designed to predict mosquito and virus transmission dynamics under varying environmental conditions. By bringing together experts from multiple disciplines, we aim to foster a collaborative space for open and constructive discussions. Participants will critically assess the strengths and limitations of existing models, explore the potential of emerging strategies—such as ensemble modelling techniques—to enhance predictive accuracy, and identify key knowledge gaps that need to be addressed.
+      CSVDM is a series of workshops, started in 2024, bringing together researchers,
+      public health practitioners and modellers working on climate-sensitive vectors,
+      mosquitoes, ticks and sandflies, and the diseases they transmit. 
     </p>
     <p>
-    Furthermore, we will emphasise the practical applications of these models in real-world public health decision-making. From early warning systems to targeted intervention strategies, we will explore how predictive modelling can inform policies, optimise resource allocation, and ultimately contribute to reducing the burden of vector-borne diseases in an era of rapid climate change.
+      The workshops bring together experts from multiple disciplines to critically
+      assess existing modelling approaches, explore emerging strategies such as
+      ensemble modelling, and identify the knowledge gaps that most need addressing,
+      with a consistent focus on making these models useful for real-world public
+      health decision-making, from early warning systems to intervention planning.
+    </p>
+    <p>
+      Find out more about the results of past workshops on the{" "}
+      <a href="/publications/">Publications</a>, <a href="/workshops/">Workshops</a>{" "}
+      and <a href="/resources/">Resources</a> pages.
+    </p>
+    <p>
+      CSVDM was initiated by a group of colleagues working across vector ecology and
+      disease modelling. Find out more on the <a href="/who/">Who are we?</a> page.
     </p>
   </Layout>
 )
