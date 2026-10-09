@@ -46,7 +46,8 @@ const ProgramPage = () => (
               Cédric Marsboom (MOOD Platform)<br />
               Stephanie Thomas (BayByeMos)<br />
               Sergio Natal (CLIMOS)<br />
-              Adam Fisher (EpiOutlook)
+              Adam Fisher (EpiOutlook)<br />
+              Paul Taconet (Cartopictus)
             </td>
           </tr>
 
@@ -265,18 +266,20 @@ const ProgramPage = () => (
           {/* Session 1 header */}
           <tr className="session-header">
             <td colSpan="3">
-              <span className="session-title">Session 1: Discussion</span>
-              <span className="session-subtitle"> — Stakeholder involvement and effective communication</span>
+              <span className="session-title">Session 1: Protocols for projections and prediction challenges</span>
             </td>
           </tr>
 
           <tr>
-            <td>09:00 – 10:30</td>
-            <td className="center"><span className="emph">Group discussion</span></td>
-            <td className="center">
-              Joacim Rocklöv<br />
-              Angela Okune
-            </td>
+            <td>09:00 – 09:45</td>
+            <td className="center"><span className="emph">Collaborative Hubs for Epidemic Forecasting</span></td>
+            <td className="center">Johannes Bracher</td>
+          </tr>
+
+          <tr>
+            <td>09:45 – 10:30</td>
+            <td className="center"><span className="emph">Introduction to attributional studies</span></td>
+            <td className="center">Stella Dafka</td>
           </tr>
 
           <tr>
@@ -316,14 +319,18 @@ const ProgramPage = () => (
           {/* Session 3 header */}
           <tr className="session-header">
             <td colSpan="3">
-              <span className="session-title">Session 3: Protocols for projections and prediction challenges</span>
+              <span className="session-title">Session 3: Discussion</span>
+              <span className="session-subtitle"> — Stakeholder involvement and effective communication</span>
             </td>
           </tr>
 
           <tr>
             <td>14:00 – 15:30</td>
-            <td className="center"><span className="emph">Collaborative Hubs for Epidemic Forecasting</span></td>
-            <td className="center">Stella Dafka &amp; Johannes Bracher</td>
+            <td className="center"><span className="emph">Group discussion</span></td>
+            <td className="center">
+              Joacim Rocklöv<br />
+              Angela Okune
+            </td>
           </tr>
 
           <tr>
@@ -334,14 +341,7 @@ const ProgramPage = () => (
 
         </tbody>
       </table>
-  
-
     </section>
-
-    <p>
-      <b>The social dinner will be on the evening of 25 November 2026. More information to come.</b>
-    </p>
-
 
 
     {/* DAY 3 */}
@@ -392,7 +392,7 @@ const ProgramPage = () => (
 
           <tr>
             <td>11:00 – 12:00</td>
-            <td>Introduction to climate change attribution</td>
+            <td>Introduction to climate data</td>
             <td className="center">Stella Dafka</td>
           </tr>
 

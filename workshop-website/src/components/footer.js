@@ -193,7 +193,7 @@ const funderLinks_ws2026 = [[
 
 // Add / replace funder logos here once confirmed
 const funderLinks_heidelberg2026 = [[
-  // { "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/", "image": img_EU },
+  { "url": "https://www.iwr.uni-heidelberg.de/", "image": img_IWR },
   { "url": "https://wellcome.org/", "image": img_Wellcome }
 ]];
 
