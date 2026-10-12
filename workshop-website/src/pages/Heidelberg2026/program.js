@@ -152,12 +152,29 @@ const ProgramPage = () => (
 
           <tr>
             <td>12:30 – 12:45</td>
-            <td>
+            <td colSpan="2">
               <span className="strong">Turbo talks</span>
               <br />
               <span className="emph"><i>3 early-career researchers, 5 min each — poster previews</i></span>
             </td>
-            <td className="center">—</td>
+          </tr>
+
+          <tr>
+            <td>12:30 – 12:35</td>
+            <td>Monitoring and modelling vector mosquitoes in urban green spaces from Morocco to the Netherlands: the Biodivecity project</td>
+            <td className="center">Andrea Radici</td>
+          </tr>
+
+          <tr>
+            <td>12:35 – 12:40</td>
+            <td>The abundance-capacity fraction: A simple indicator for peak abundance timing of <i>Culex</i> mosquitoes</td>
+            <td className="center">Nikos Kollas</td>
+          </tr>
+
+          <tr>
+            <td>12:40 – 12:45</td>
+            <td>Decomposing seasonal <i>Culex pipiens</i> abundance into generational cohorts: a Gaussian mixture approach</td>
+            <td className="center">Júlia Cabrera</td>
           </tr>
 
           <tr>
@@ -199,19 +216,36 @@ const ProgramPage = () => (
           </tr>
 
           <tr>
-            <td>14:40 – 15:10</td>
+            <td>14:40 – 15:15</td>
             <td className="center"><span className="emph">Question time and discussion</span></td>
             <td className="center">Session moderators</td>
           </tr>
 
           <tr>
-            <td>15:10 – 15:30</td>
-            <td>
+            <td>15:15 – 15:30</td>
+            <td colSpan="2">
               <span className="strong">Turbo talks</span>
               <br />
               <span className="emph"><i>3 early-career researchers, 5 min each — poster previews</i></span>
             </td>
-            <td className="center">—</td>
+          </tr>
+
+          <tr>
+            <td>15:15 – 15:20</td>
+            <td>Climate-Sensitive One Health Modelling of West Nile Virus Transmission Risk in Urban Environments (WNVcombat)</td>
+            <td className="center">Stephanie Thomas</td>
+          </tr>
+
+          <tr>
+            <td>15:20 – 15:25</td>
+            <td>Modelling the effect of future climate change on the transmission of West Nile Virus by <i>Culex pipiens pipiens</i></td>
+            <td className="center">Dominic Brass</td>
+          </tr>
+
+          <tr>
+            <td>15:25 – 15:30</td>
+            <td>From serology to surveillance: disentangling Usutu and West Nile virus antibody cross-reactivity</td>
+            <td className="center">Mariken de Wit</td>
           </tr>
 
           <tr>
