@@ -274,7 +274,7 @@ const ProgramPage = () => (
 
           <tr>
             <td>17:00 – 17:20</td>
-            <td>TBA</td>
+            <td>Beyond instantaneous temperature: modelling persistent thermal effects on ectotherm survival and development</td>
             <td className="center">Kamil Erguler</td>
           </tr>
 
