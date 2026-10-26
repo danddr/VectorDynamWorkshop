@@ -74,7 +74,7 @@ const Header = ({ workshop, siteTitle }) => {
     "Heidelberg2026": (
         <>
           <h1>
-              3<sup>rd</sup> CSVDM Workshop<br/>Climate-Sensitive Vector Dynamics Modelling<br />
+              3<sup>rd</sup> <br/>Climate-Sensitive Vector Dynamics Modelling Workshop<br />
               <b><i>Culex pipiens</i> in a Changing Climate</b>
           </h1>
         </>

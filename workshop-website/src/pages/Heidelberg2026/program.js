@@ -438,7 +438,10 @@ const ProgramPage = () => (
 
         </tbody>
       </table>
-    </section>
+     </section>
+
+  </Layout>
+)
 
 export const Head = () => <Seo title="Program" />
 export default ProgramPage
