@@ -33,13 +33,13 @@ const ProgramPage = () => (
           </tr>
 
           <tr>
-            <td>12:00 – 12:10</td>
+            <td>10:00 – 10:10</td>
             <td className="center">Welcome speech</td>
             <td className="center">Organising Committee</td>
           </tr>
 
           <tr>
-            <td>12:10 – 13:00</td>
+            <td>10:10 – 11:00</td>
             <td className="center">Dashboard overview</td>
             <td className="center">
               Kamil Erguler (VEClim)<br />
@@ -52,7 +52,7 @@ const ProgramPage = () => (
           </tr>
 
           <tr>
-            <td>13:00 – 13:30</td>
+            <td>11:00 – 11:30</td>
             <td className="center"><span className="emph">Roundtable discussion + Q&A </span></td>
             <td className="center">All participants</td>
           </tr>
@@ -262,13 +262,13 @@ const ProgramPage = () => (
 
           <tr>
             <td>16:00 – 16:30</td>
-            <td>TBA</td>
+            <td>Physics-Informed Neural Network for arboviruses</td>
             <td className="center">Cédric Marsboom</td>
           </tr>
 
           <tr>
             <td>16:30 – 17:00</td>
-            <td>TBA</td>
+            <td>An explainable covariate compartmental model for predicting the spatio-temporal patterns of dengue in Sri Lanka</td>
             <td className="center">Peter Fransson</td>
           </tr>
 
@@ -282,7 +282,7 @@ const ProgramPage = () => (
       </table>
     </section>
 
-    {/* DAY 2 */}
+     {/* DAY 2 */}
     <section className="day-section">
       <h2>25 November 2026 — IWR, Heidelberg (Germany)</h2>
 
@@ -305,19 +305,19 @@ const ProgramPage = () => (
           </tr>
 
           <tr>
-            <td>09:00 – 09:45</td>
+            <td>08:30 – 09:15</td>
             <td className="center"><span className="emph">Collaborative Hubs for Epidemic Forecasting</span></td>
             <td className="center">Johannes Bracher</td>
           </tr>
 
           <tr>
-            <td>09:45 – 10:30</td>
+            <td>09:15 – 10:00</td>
             <td className="center"><span className="emph">Introduction to attributional studies</span></td>
             <td className="center">Stella Dafka</td>
           </tr>
 
           <tr>
-            <td>10:30 – 11:00</td>
+            <td>10:00 – 10:30</td>
             <td colSpan="2" className="center light">☕ Coffee break &amp; Poster session</td>
           </tr>
 
@@ -328,12 +328,12 @@ const ProgramPage = () => (
             </td>
           </tr>
           <tr>
-            <td>11:00 – 12:30</td>
+            <td>10:30 – 12:00</td>
             <td>Joint presentation and discussion of the <em>Culex pipiens</em> dynamics <XLink href="https://www.vectormodelling.com/Heidelberg2026/exercise/">modelling challenge</XLink></td>
             <td className="center">TBA</td>
           </tr>
           <tr>
-            <td>12:30 – 14:00</td>
+            <td>12:00 – 13:00</td>
             <td colSpan="2" className="center light">🍴 Lunch &amp; Poster session</td>
           </tr>
       </tbody>
@@ -359,7 +359,7 @@ const ProgramPage = () => (
           </tr>
 
           <tr>
-            <td>14:00 – 15:30</td>
+            <td>13:00 – 14:30</td>
             <td className="center"><span className="emph">Group discussion</span></td>
             <td className="center">
               Joacim Rocklöv<br />
@@ -368,7 +368,7 @@ const ProgramPage = () => (
           </tr>
 
           <tr>
-            <td>15:30 – 16:00</td>
+            <td>14:30 – 15:00</td>
             <td className="center"><span className="emph">Wrap-up, roadmap, and next steps</span></td>
             <td className="center">All participants</td>
           </tr>
@@ -378,7 +378,7 @@ const ProgramPage = () => (
     </section>
 
 
-    {/* DAY 3 */}
+        {/* DAY 3 */}
     <section className="day-section">
       <h2>26 November 2026 — IWR, Heidelberg (Germany)</h2>
 
@@ -396,20 +396,20 @@ const ProgramPage = () => (
           {/* Session 1 header */}
           <tr className="session-header">
             <td colSpan="3">
-              <span className="session-title">Session 1: Training — data and modelling tools</span>
+              <span className="session-title">Session 1: Training — climate science and data</span>
             </td>
           </tr>
 
           <tr>
-            <td>08:30 – 09:30</td>
-            <td>Introduction to spatiotemporal machine learning — hands-on tutorials in R</td>
-            <td className="center">Daniele Da Re</td>
+            <td>09:00 – 09:30</td>
+            <td>Introduction to climate science</td>
+            <td className="center">Stella Dafka</td>
           </tr>
 
           <tr>
             <td>09:30 – 10:30</td>
-            <td>Introduction to ODE modelling in R</td>
-            <td className="center">TBA</td>
+            <td>Tutorial in R on handling climate data</td>
+            <td className="center">Pratik Singh</td>
           </tr>
 
           <tr>
@@ -420,14 +420,14 @@ const ProgramPage = () => (
           {/* Session 2 header */}
           <tr className="session-header">
             <td colSpan="3">
-              <span className="session-title">Session 2: Training — climate change attribution</span>
+              <span className="session-title">Session 2: Training — modelling tools</span>
             </td>
           </tr>
 
           <tr>
             <td>11:00 – 12:00</td>
-            <td>Introduction to climate data</td>
-            <td className="center">Stella Dafka</td>
+            <td>Introduction to spatiotemporal machine learning — hands-on tutorials in R</td>
+            <td className="center">Daniele Da Re</td>
           </tr>
 
           <tr>
@@ -439,9 +439,6 @@ const ProgramPage = () => (
         </tbody>
       </table>
     </section>
-
-  </Layout>
-)
 
 export const Head = () => <Seo title="Program" />
 export default ProgramPage
