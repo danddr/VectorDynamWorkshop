@@ -7,14 +7,12 @@ import XLink from "../../components/xlink"
 const ProgramPage = () => (
   <Layout workshop="Heidelberg2026">
     <p>
-      <b>
-        Please note that the programme, and so the presentations' title,  is preliminary and may evolve to adapt to speakers' availability and session needs.
-      </b>
+     
     </p>
 
     {/* DAY 0 */}
     <section className="day-section">
-      <h2>~16 November 2026 — Online (Pre-workshop Webinar)</h2>
+      <h2>16 November 2026 — Online (Pre-workshop Webinar)</h2>
       <table>
         <thead>
           <tr>
