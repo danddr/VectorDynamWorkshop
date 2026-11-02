@@ -136,6 +136,21 @@ const img_UCLouvain = (<StaticImage
     formats={["auto", "webp", "avif"]} alt=""
     style={{ marginBottom: `var(--space-3)` }}
   />);
+
+const img_geoAI = (<StaticImage
+    src="../images/Logo_GeoAI4EI.webp"
+    loading="eager" width={150} quality={100}
+    formats={["auto", "webp", "avif"]} alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />);
+
+const img_MOOD_INPA = (<StaticImage
+    src="../images/Logo_MOOD_INPA_V2.webp"
+    loading="eager" width={150} quality={100}
+    formats={["auto", "webp", "avif"]} alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />);
+
 // ─────────────────────────────────────────────────────────────────────────────
 
 // ── Organisers ────────────────────────────────────────────────────────────────
@@ -193,9 +208,15 @@ const funderLinks_ws2026 = [[
 
 // Add / replace funder logos here once confirmed
 const funderLinks_heidelberg2026 = [[
-  { "url": "https://www.iwr.uni-heidelberg.de/", "image": img_IWR },
-  { "url": "https://wellcome.org/", "image": img_Wellcome }
+  { "url": "https://www.iwr.uni-heidelberg.de/", "image": img_IWR},
+  { "url": "https://wellcome.org/", "image": img_Wellcome},
+  { "url": "https://www.avia-gis.com/", "image": img_AviaGIS},
+  { "url": "https://geoai4ei.eu/", "image": img_geoAI},
+  { "url": "https://mood-h2020.eu/mood-foundation/", "image": img_MOOD_INPA} 
 ]];
+
+
+ 
 
 // ── Footer component ──────────────────────────────────────────────────────────
 

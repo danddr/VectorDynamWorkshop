@@ -13,6 +13,26 @@ const ProgramPage = () => (
     {/* DAY 0 */}
     <section className="day-section">
       <h2>16 November 2026 — Online (Pre-workshop Webinar)</h2>
+
+      <p>
+        Several dashboards now exist to support the management of vector-borne diseases and
+        pandemic preparedness, but it is not always clear what each one offers or how to use it.
+        In this webinar, the teams behind six ready-to-use platforms will present their tools,
+        what they can do for researchers and public health professionals, and how you can start
+        using them.
+      </p>
+
+      <p>
+        <strong>When:</strong> Monday 16 November 2026, 10:00 to 11:30 CET
+        <br />
+        <strong>Where:</strong> Online, via Zoom (the link is sent to registered participants before the event)
+        <br />
+        <strong>Register:</strong>{" "}
+        <XLink href="https://docs.google.com/forms/d/e/1FAIpQLSdZdsd19FFlvXrxWsHSjlmx6XWKtvba-qqAyzKbI2r3wMERiw/viewform?usp=dialog">
+          registration form
+        </XLink>
+      </p>
+
       <table>
         <thead>
           <tr>
@@ -374,6 +394,34 @@ const ProgramPage = () => (
         </tbody>
       </table>
     </section>
+
+      <h3>Evening</h3>
+      <table>
+        <thead>
+          <tr>
+            <th className="center">Time</th>
+            <th className="center">Event</th>
+            <th className="center">Where</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="session-header">
+            <td colSpan="3">
+              <span className="session-title">Social dinner: let's meet at Urban Kitchen</span>
+            </td>
+          </tr>
+          <tr>
+            <td>20:00</td>
+            <td className="center"><span className="emph">🍽️ Social dinner</span></td>
+            <td className="center">
+              Urban Kitchen<br />
+              <XLink href="https://www.google.com/maps/search/?api=1&query=Urban+Kitchen+Poststra%C3%9Fe+36%2F5+69115+Heidelberg">
+                Poststraße 36/5, 69115 Heidelberg
+              </XLink>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
 
         {/* DAY 3 */}
