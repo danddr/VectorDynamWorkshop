@@ -23,6 +23,23 @@ const ExercisePage = () => (
         resource that can support future research and public health applications.
       </p>
 
+      <h3>How to take part</h3>
+
+      <ul>
+        <li>
+          <b>Mission Time:</b> train your model on any data you like and predict the
+          <i> Culex pipiens</i> time series at two locations. Send one time series per location,
+          following the format of the CSV files provided, to{" "}
+          <a href="mailto:info@vectormodelling.com">info@vectormodelling.com</a> by{" "}
+          <b>20 November 2026</b>.
+        </li>
+        <li>
+          <b>Mission Space:</b> produce a habitat suitability prediction or seasonal abundance
+          dynamics for <i>Culex pipiens</i>, using the CERRA climate data if you wish. Share your
+          results and your GitHub repository, preferably by <b>20 November 2026</b>.
+        </li>
+      </ul>
+
       <h3>Mission Time</h3>
 
       <p>
@@ -32,15 +49,15 @@ const ExercisePage = () => (
       </p>
 
       <ul>
-        <li>
-          <b>Petrovaradin, Serbia</b>, with daily adult
-          <i> Culex pipiens</i> observations available for 2016 and 2017.
-        </li>
-        <li>
-          <b>Larnaca, Cyprus</b>, with weekly adult
-          <i> Culex pipiens</i> observations collected during 2025.
-        </li>
+        <li><b>Petrovaradin, Serbia</b></li>
+        <li><b>Larnaca, Cyprus</b></li>
       </ul>
+
+      <p>
+        Observed mosquito counts for these two locations are not shared, because they have
+        not been published yet. We will compare your predictions with the observations after
+        the submission deadline.
+      </p>
 
       <p>
         The meteorological dataset includes daily air temperature,
@@ -72,27 +89,41 @@ const ExercisePage = () => (
     </p>
 
       <p>
-        The objective is to develop models capable of reproducing the observed
-        adult mosquito abundance at these locations and to estimate the
-        <b> average weekly seasonal dynamics</b> of <i>Culex pipiens</i>.
-        Participants are free to use any modelling framework. We would appreciate 
-        being informed of any additional publicly available datasets used so that 
-        they can be documented and, where appropriate, included in the shared dataset.
+        <b>What to do:</b> train your model on any data of your choice, for example the
+        dataset described below or your own, and use it to predict the
+        <b> average weekly seasonal dynamics</b> of <i>Culex pipiens</i> at Petrovaradin and
+        Larnaca. Participants are free to use any modelling framework. We would appreciate
+        being informed of any additional publicly available datasets used so that they can be
+        documented and, where appropriate, included in the shared dataset.
+      </p>
+
+      <p>
+        <b>What to send:</b> the predicted time series for each of the two locations, following
+        the format of the CSV files provided (same dates and structure), to{" "}
+        <a href="mailto:info@vectormodelling.com">info@vectormodelling.com</a> by{" "}
+        <b>20 November 2026</b>.
       </p>
 
       <h3>Mission Space</h3>
 
       <p>
-        The second challenge focuses on the spatial distribution of
-        <i> Culex pipiens</i>. Unlike Mission Time, no meteorological data are 
-        provided. Participants are invited to develop habitat
-        suitability models using any environmental predictors, occurrence
-        records, or modelling techniques they consider appropriate.
+        The second challenge focuses on the spatial distribution of <i>Culex pipiens</i>.
+        No meteorological data are provided for this mission, but you can use the{" "}
+        <XLink href="https://climate.copernicus.eu/copernicus-regional-reanalysis-europe">CERRA climate data</XLink>{" "}
+        as a starting point, together with any other environmental predictors, occurrence records
+        or modelling techniques you consider appropriate.
       </p>
 
       <p>
-        The expected output is a habitat suitability map on the <b>CERRA grid</b>,
-        submitted either as a <b>NetCDF</b> or <b>GeoTIFF</b> file.
+        <b>The goal:</b> produce either a <b>habitat suitability prediction</b> or
+        <b> seasonal abundance dynamics</b>, on the <b>CERRA grid</b>, as a <b>NetCDF</b> or
+        <b> GeoTIFF</b> file.
+      </p>
+
+      <p>
+        <b>What to send:</b> your results and a link to your GitHub repository, to{" "}
+        <a href="mailto:info@vectormodelling.com">info@vectormodelling.com</a>, preferably by{" "}
+        <b>20 November 2026</b>.
       </p>
 
       <h3>Training data</h3>
@@ -116,8 +147,8 @@ const ExercisePage = () => (
       </p>
 
       <p>
-        We encourage participants to make use of this dataset, where appropriate, to develop and calibrate their 
-        models for the two Missions described above.
+        You are free to train your models on any data you like. We encourage participants to make use of this
+        dataset, where appropriate, to develop and calibrate their models for the two Missions described above.
       </p>
 
       <h3>Sharing models</h3>
