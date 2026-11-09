@@ -61,7 +61,7 @@ const ProgramPage = () => (
             <td className="center">Dashboard overview</td>
             <td className="center">
               Kamil Erguler (VEClim)<br />
-              Cédric Marsboom (MOOD Platform)<br />
+              Guy Hendrickx (MOOD Platform)<br />
               Stephanie Thomas (BayByeMos)<br />
               Sergio Natal (CLIMOS)<br />
               Adam Fisher (EpiOutlook)<br />
