@@ -124,7 +124,7 @@ const ProgramPage = () => (
             <td><span className="emph">What data do we have available for modelling the WNV enzootic cycle?</span></td>
             <td className="center">
               Cédric Marsboom<br />
-              Julian Heidecke<br />
+              Peter Fransson<br />
               Alex Richter-Boix<br />
               Reina Sikkema<br />
               David Roiz<br />
