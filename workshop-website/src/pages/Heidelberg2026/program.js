@@ -173,7 +173,7 @@ const ProgramPage = () => (
             <td colSpan="2">
               <span className="strong">Turbo talks</span>
               <br />
-              <span className="emph"><i>3 early-career researchers, 5 min each — poster previews</i></span>
+              <span className="emph"><i>5 min talks — poster previews</i></span>
             </td>
           </tr>
 
@@ -244,7 +244,7 @@ const ProgramPage = () => (
             <td colSpan="2">
               <span className="strong">Turbo talks</span>
               <br />
-              <span className="emph"><i>3 early-career researchers, 5 min each — poster previews</i></span>
+              <span className="emph"><i>5 min talks — poster previews</i></span>
             </td>
           </tr>
 
@@ -252,12 +252,6 @@ const ProgramPage = () => (
             <td>15:15 – 15:20</td>
             <td>Climate-Sensitive One Health Modelling of West Nile Virus Transmission Risk in Urban Environments (WNVcombat)</td>
             <td className="center">Stephanie Thomas</td>
-          </tr>
-
-          <tr>
-            <td>15:20 – 15:25</td>
-            <td>Modelling the effect of future climate change on the transmission of West Nile Virus by <i>Culex pipiens pipiens</i></td>
-            <td className="center">Dominic Brass</td>
           </tr>
 
           <tr>
@@ -348,7 +342,7 @@ const ProgramPage = () => (
           <tr>
             <td>10:30 – 12:00</td>
             <td>Joint presentation and discussion of the <em>Culex pipiens</em> dynamics <XLink href="https://www.vectormodelling.com/Heidelberg2026/exercise/">modelling challenge</XLink></td>
-            <td className="center">TBA</td>
+            <td className="center">Kamil Erguler, Daniele Da Re</td>
           </tr>
           <tr>
             <td>12:00 – 13:00</td>

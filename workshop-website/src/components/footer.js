@@ -151,6 +151,13 @@ const img_MOOD_INPA = (<StaticImage
     style={{ marginBottom: `var(--space-3)` }}
   />);
 
+const img_FNRS = (<StaticImage
+    src="../images/fnrs_logo.webp"
+    loading="eager" width={150} quality={100}
+    formats={["auto", "webp", "avif"]} alt=""
+    style={{ marginBottom: `var(--space-3)` }}
+  />);
+
 // ─────────────────────────────────────────────────────────────────────────────
 
 // ── Organisers ────────────────────────────────────────────────────────────────
@@ -212,10 +219,10 @@ const funderLinks_heidelberg2026 = [[
   { "url": "https://wellcome.org/", "image": img_Wellcome},
   { "url": "https://www.avia-gis.com/", "image": img_AviaGIS},
   { "url": "https://geoai4ei.eu/", "image": img_geoAI},
-  { "url": "https://mood-h2020.eu/mood-foundation/", "image": img_MOOD_INPA} 
+  { "url": "https://mood-h2020.eu/mood-foundation/", "image": img_MOOD_INPA}, 
+  {"url": "https://www.frs-fnrs.be/en", "image": img_FNRS
+} 
 ]];
-
-
  
 
 // ── Footer component ──────────────────────────────────────────────────────────
