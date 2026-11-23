@@ -421,6 +421,16 @@ const ProgramPage = () => (
         {/* DAY 3 */}
     <section className="day-section">
       <h2>26 November 2026 — IWR, Heidelberg (Germany)</h2>
+      <p>
+        <strong>Teaching materials:</strong> please download the workshop
+        material and install the required R packages before the sessions,
+        by Wednesday 25 November at the latest. The download link and the
+        installation instructions are available{" "}
+        <a href="https://heibox.uni-heidelberg.de/d/6e147518a5cf425d8e14/" target="_blank" rel="noopener noreferrer">
+          here
+        </a>
+        .
+      </p>
 
       <h3>Morning Session</h3>
       <table>
